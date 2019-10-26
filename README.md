@@ -6,7 +6,7 @@ Logbook: tblogs.desy.de
 ---
 
 What people are working on now:
-- Lam: analysis automation
+- Lam: clustering/analysis automation
 - Derek: mimosa telescope
 
 ---

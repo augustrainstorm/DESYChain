@@ -3,7 +3,7 @@ Central Location for DESY Chain code and other resources, especially for data an
 
 Logbook: tblogs.desy.de
 Logbook (Google): https://docs.google.com/spreadsheets/d/1FlEz9ZcxnCehYEL7BDj7LG2NWDOv_PQOYFqOetdXYAA/edit#gid=0
-TBlogs notes: https://docs.google.com/document/d/19nC5b6G-NxwPl5zg_POQVCL_Udcd_Tg0WKoGBN7mBKM/edit
+TBlogs notes: https://docs.google.com/spreadsheets/d/1tZnqCgYq3J63thZESnhgZJETolPPK2ofS_2lhZcZukY/edit
 
 ---
 

@@ -189,13 +189,25 @@ def calPlot(runNumbers): #runNumbers accepts various formats: a list or a string
         print()
         
         
-def dfTree(inTree):
+def dfTree(inTree, portion = None):
     branchOut = {branchDict[key]: [] for key in branchDict.keys()}
+    totEntries = inTree.GetEntries()
+    if portion: #if you want to subsample randomly, pass either a # of runs or a proportion
+        if portion < 1:
+            portion*=totEntries
+        portion = int(portion)
+        runs = np.random.choice(range(totEntries), portion, replace = False) #can this be a generator instead? can the distribution be skewed to the middle, without loosing the without-replacement portion — because that's what we want, as that's when the action is definitely happening? 
+    else:
+        runs = range(totEntries)
+        
+    counter = 0
     for event in inTree:
-        for branchName in branchDict.keys():
-            branchOut[branchDict[branchName]].append(getattr(event, branchName))
+        if counter in runs:
+            for branchName in branchDict.keys():
+                branchOut[branchDict[branchName]].append(getattr(event, branchName))
+        counter += 1
     out_df = pd.DataFrame(branchOut)
-    print(out_df)
+    #print(out_df)
     return out_df
         
         

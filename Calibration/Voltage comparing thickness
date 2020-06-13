@@ -34,5 +34,6 @@ for run in runNumbers:
     
 c1.Draw()
 print(scintMeans)
-#1630V
+#1630V(arianna)
+1572002093, 1572002868
 #1680V

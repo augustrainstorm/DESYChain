@@ -3,5 +3,36 @@
 #1470V
 #1530V
 #1580V
+runNumbers=["1572187615", "1572199259", "1572169691", "1572167644", "1571991208","1572001725"]
+from ROOT import TF1, TFile, TCanvas, TH1D
+import numpy as np
+import matplotlib.pyplot as plt
+iterat=1
+maxum=6
+
+scintMeans=[]
+holdScint=[]
+
+fitti=TF1("fitti", "landau")
+
+for run in runNumbers:
+    runName="/nfs/dust/fhlabs/group/BL4S/data/DESYChain/ConvertedData/" + run + ".root"
+    importFile = TFile(runName, "READ")
+    RAWdata=importFile.Get("RAWdata")
+    hist1=TH1D("name", "title", 100, 200, 3800)
+
+    RAWdata.Draw("QDC0_ch0>>name", "QDC0_ch0<3800 && QDC0_ch0>200")
+    hist1.Fit(fitti)
+
+    holdScint+=[(fitti.GetParameter("MPV"), hist1.GetMean())] #store both the Landau MPV and mean to our hold
+    if iterat%1==0:
+        scintMeans+=[(np.mean([i[0] for i in holdScint]), np.mean([i[1] for i in holdScint]))] #and then calculate both their means and store it
+        holdScint=[]
+    iterat+=1
+    if iterat>maxum:
+        break
+    
+c1.Draw()
+print(scintMeans)
 #1630V
 #1680V

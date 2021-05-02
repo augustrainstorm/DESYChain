@@ -1,0 +1,2296 @@
+Bonus: ID,Beam Energy,Beam Type,Magnet Energy,Eudaq,TDaq,Scintillator Thickness,Most Recent Alignment Run (EUDAQ),All micromegas? y/n,Voltage,How to use: 
+317,1,Positron,50,150,1571931443,1,145,n,NA,Fill in top categories with info from tblogs (below)
+319,1,Positron,25,151,1571931737,1,145,n,1580,"1: if experiment is Particle Peers, exclude & delete"
+321,1,Positron,0,152,1571932015,1,145,n,1580,"2: if experiment is DESY chain but not a data run, exclude but keep if relevant information* is included"
+323,1,Positron,75,153,1571932325,1,145,n,1580,"3: if experiment is general, exclude but keep if relevant information* is included"
+325,3,Positron,75,154,1571932668,1,145,n,1580,
+327,3,Positron,125,155,1571933143,1,145,n,1580,*: relevant info = is alignment run; discusses which sensor config is used; gives scintillator thickness; 
+329,3,Positron,200,156,1571933521,1,145,n,1580,gives beam energy; gives magnet energy
+331,3,Positron,0,157,1571933929,1,145,n,1580,
+333,5,Positron,0,158,1571934315,1,145,n,1580,
+335,5,Positron,125,159,1571934931,1,145,n,1580,
+338,5,Positron,250,161,1571935652,1,145,n,1580,
+340,5,Positron,375,162,1571936276,1,145,n,1580,
+342,5,Positron,500,163,1571936885,1,145,n,1580,
+344,1,Electron,100,164,1571937854,1,145,n,1580,
+346,1,Electron,75,165,1571938197,1,145,n,1580,
+348,1,Electron,50,166,1571938501,1,145,n,1580,
+350,1,Electron,25,167,1571938794,1,145,n,1580,
+352,1,Electron,0,168,1571939126,1,145,n,1580,
+356,3,Electron,0,170,1571939524,1,145,n,1580,
+358,3,Electron,75,171,1571939912,1,145,n,1580,
+362,3,Electron,125,172,1571950010,1,145,n,1580,
+364,3,Electron,200,174,1571950464,1,145,n,1580,
+366,5,Electron,0,176,1571950975,1,145,n,1580,
+368,5,Electron,125,177,1571951573,1,145,n,1580,
+370,5,Electron,250,178,1571952203,1,145,n,1580,
+372,5,Electron,375,180,1571952846,1,145,n,1580,
+374,5,Electron,500,181,1571953473,1,145,n,1580,
+386,5,Positron,0,187,1572001725,0.5,187,n,1580,for k value
+393,5,Positron,375,190,1572003556,0.5,189,n,1630,
+395,5,Positron,250,191,1572004238,0.5,189,n,1630,
+397,3,Positron,125,192,1572004934,0.5,189,n,1630,
+398,3,Positron,200,193,1572005884,0.5,189,n,1630,
+400,1,Positron,75,194,1572006472,0.5,189,n,1630,
+402,1,Positron,50,195,1572006850,0.5,189,n,1630,
+404,1,Positron,25,196,1572007197,0.5,189,n,1630,
+406,1,Positron,0,197,1572007510,0.5,189,n,1630,
+408,3,Positron,0,198,1572007834,0.5,189,n,1630,
+410,5,Positron,0,199,1572008331,0.5,189,n,1630,
+412,5,Electron,375,200,1572008983,0.5,189,n,1630,
+414,5,Electron,250,201,1572009598,0.5,189,n,1630,
+416,3,Electron,200?? (maybe 250),203,1572010530,0.5,189,n,1630,Check data to confirm 200 A or actually 250 A
+418,3,Electron,125,204,1572010964,0.5,189,n,1630,
+421,3,Electron,0,205,1572011373,0.5,189,n,1630,
+423,1,Electron,0,206,1572012186,0.5,189,n,1630,
+425,1,Electron,25,207,1572012538,0.5,189,n,1630,
+427,1,Electron,50,208,1572012923,0.5,189,n,1630,
+429,1,Electron,25?,209,1572013337,0.5,189,n,1630,Not sure why we did 25 A again. 
+524,1?,Positron,0,246,1572097787,2,220,y,1450,Is this really 1 GeV? Check data
+526,5,Positron,250,247,1572098569,2,220,y,1450,
+528,5,Positron,500,248,1572099283,2,220,y,1450,
+530,3,Positron,0,249,1572100097,2,220,y,1450,
+532,3,Positron,150,250,1572100629,2,220,y,1450,
+534,3,Positron,300,251,1572101077,2,220,y,1450,
+536,1,Positron,0,254,1572101587,2,220,y,1450,
+538,1,Positron,50,255,1572102133,2,220,y,1450,
+540,1,Positron,100,256,1572102470,2,220,y,1450,
+548,1,Electron,0,259,1572104299,2,220,y,1450,
+550,1,Electron,50,260,1572104678,2,220,y,1450,
+552,1,Electron,100,261,1572105037,2,220,y,1450,
+554,3,Electron,100,262,1572105397,2,220,y,1450,
+556,3,Electron,150,263,1572105827,2,220,y,1450,
+558,3,Electron,300,264,1572106243,2,220,y,1450,
+560,3,Electron,0,265,1572106685,2,220,y,1450,
+562,5,Electron,0,266,1572107138,2,220,y,1450,
+564,5,Electron,250,267,1572107806,2,220,y,1450,
+566,5,Electron,500,268,1572108522,2,220,y,1450,
+648,5,Positron,250,275,1572169691,1,274,y,1580,
+650,5,Positron,500,276,1572170351,1,274,y,1580,
+651,3,Positron,150,277,1572171025,1,274,y,1580,
+653,3,Positron,300,278,1572171442,1,274,y,1580,
+655,3,Positron,0,279,1572171865,1,274,y,1580,
+657,1,Positron,0,280,1572172309,1,274,y,1580,
+659,1,Positron,50,281,1572172623,1,274,y,1580,
+661,1,Positron,100,282,1572172945,1,274,y,1580,
+663,1,Electron,100,283,1572173331,1,274,y,1580,
+665,1,Electron,50,284,1572173645,1,274,y,1580,
+667,1,Electron,0,285,1572173990,1,274,y,1580,
+669,3,Electron,0,286,1572174366,1,274,y,1580,
+671,3,Electron,150,287,1572174791,1,274,y,1580,
+673,3,Electron,300,288,1572175181,1,274,y,1580,
+675,5,Electron,500,289,1572175587,1,274,y,1580,
+677,5,Electron,250,290,1572176260,1,274,y,1580,
+679,5,Electron,0,291,1572176931,1,274,y,1580,
+685,5,Electron,250,296,1572180849,Crystal,295,y,1800,
+687,5,Electron,150,297,1572181315,Crystal,295,y,1800,
+689,5,Electron,100,298,1572181745,Crystal,295,y,1800,
+691,3,Electron,0,299,1572182574,Crystal,295,y,1800,
+693,3,Electron,60,300,1572183037,Crystal,295,y,1800,
+695,1,Electron,20,301,1572183476,Crystal,295,y,1800,
+697,1,Electron,0,302,1572183834,Crystal,295,y,1800,
+699,1,Positron,0,303,1572184203,Crystal,295,y,1800,
+701,1,Electron?,20,304,1572184622,Crystal,295,y,1800,Should it be positrons instead?
+703,3,Positron,60,305,1572184952,Crystal,295,y,1800,
+705,3,Positron,0,306,1572185366,Crystal,295,y,1800,
+707,5,Positron,0,307,1572185799,Crystal,295,y,1800,
+709,5,Positron,100,308,1572186485,Crystal,295,y,1800,
+719,5,Positron,0,312,1572188706,0.2,295,y,1800,
+721,5,Positron,250,313,1572189388,0.2,295,y,1800,
+723,5,Positron,500,314,1572190135,0.2,295,y,1800,
+726,3,Positron,300,315,1572190918,0.2,295,y,1800,
+728,3,Positron,150,316,1572191362,0.2,295,y,1800,
+730,3,Positron,0,317,1572191829,0.2,295,y,1800,
+732,1,Positron,0,318,1572192245,0.2,295,y,1800,
+734,1,Positron,50,319,1572192584,0.2,295,y,1800,
+736,1,Positron,100,320,1572192942,0.2,295,y,1800,
+738,1,Electron,100,321,1572193352,0.2,295,y,1800,
+740,1,Electron,50,322,1572193711,0.2,295,y,1800,
+742,3,Electron,0,323,1572194050,0.2,295,y,1800,
+745,3,Electron,150,325,1572194833,0.2,295,y,1800,
+747,3,Electron,300,326,1572195254,0.2,295,y,1800,
+751,5,Electron,500,328,1572196002,0.2,295,y,1800,
+753,5,Electron,250,329,1572196640,0.2,295,y,1800,
+755,5,Electron,0,330,1572197296,0.2,295,y,1800,
+762,3,Electron,300,333,1572199396,1,295,y,1530,
+764,3,Electron,150,334,1572200064,1,295,y,1530,
+766,3,Electron,0,335,1572200730,1,295,y,1530,
+768,1,Electron,0,336,1572201397,1,295,y,1530,
+770,1,Electron,50,337,1572201758,1,295,y,1530,
+772,1,Electron,100,338,1572202090,1,295,y,1530,
+774,1,Positron,0,339,1572202506,1,295,y,1530,
+776,1,Positron,50,340,1572202839,1,295,y,1530,
+778,1,Positron,0?,341,1572203198,1,295,y,1530,Why did we do 0 A again? Check data
+780,3,Positron,150,343,1572203962,1,295,y,1530,
+782,3,Positron,300,344,1572204380,1,295,y,1530,
+784,5,Positron,0,345,1572204862,1,295,y,1530,
+786,5,Positron,375,346,1572205682,1,295,y,1530,
+788,5,Electron,375,347,1572206303,1,295,y,1530,
+790,5,Electron,0,348,1572206843,1,295,y,1530,
+792,5,Electron,500,349,1572207775,1,295,y,1530,
+794,4,Electron,500,350,1572207988,1,295,y,1530,
+796,3,Electron,500,351,1572208189,1,295,y,1530,
+798,2,Electron,500,352,1572208366,1,295,y,1530,
+800,1,Electron,500,353,1572208515,1,295,y,1530,
+802,1,Positron,500,354,1572208677,1,295,y,1530,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+ID,Experiment,,Type,Run Number Eudaq,Run Number TDAQ,Subject,,,,
+2,General,,Other,,,Shift start,,,,
+"Beam Energy: 4 GeV;
+Magnetic field: none;
+Our scintillator was in;
+We noticed that MIMOSA 2 was slightly shifted and MIMOSA 3 was more shifted both relative to MIMOSA 1 on the X
+plane (line was offset from the origin). Y Plane was also shifted but we can´t do anything about that.",,,,,,,,,,
+3,DESY Chain,,Calibration,52,,Mimosa Alignment Run,,,,
+We shifted the MIMOSA rail by pushing the front to the right by ~3 mm.,,,,,,,,,,
+4,General,,Other,,,Mimosa Shift,,,,
+"Energy = 4 GeV
+scintillator; out
+magnetic field; none
+
+alignment is still a bit off, but fine.",,,,,,,,,,
+5,DESY Chain,,Calibration,53,,Mimosa Alignment,,,,
+"We shifted the block of Tungsten in between sensor 3 and 4 of the Alpide out of the way from 45,000 mm to
+200,000 mm. The Y-position stayed at 80,000 mm.",,,,,,,,,,
+6,General,,Other,,,Moving Tungsten,,,,
+"Shift 2 is starting with Abracha, Janiek, Lam, August, Cristovao",,,,,,,,,,
+8,General,,Other,,,New Shift Started,,,,
+We turned on the calorimeter 0 and increased the voltage to 1300 Volts. The current is 1087 uA.,,,,,,,,,,
+9,General,,Other,,,Calorimeter on swich,,,,
+We switched on calorimeter 1 at 1475 Volts. It has a current of 538 uA.,,,,,,,,,,
+10,General,,Other,,,switch on calorimeter 1,,,,
+"We turned on calorimeter 2 at 1215 V, 1014.35 uA. We set max current to 1100 uA.",,,,,,,,,,
+11,General,,Other,,,Turn on Calorimeter 2,,,,
+"We turned on calorimeter 3 at 1150 V. It had a current of 420,35 uA.",,,,,,,,,,
+12,General,,Other,,,Turn on Calorimeter 3,,,,
+We turned on calorimeter 4 at 1435 V. It had a current of 514.80 uA.,,,,,,,,,,
+13,General,,Other,,,Turn on Calorimeter 4,,,,
+We delayed the signal from calorimeter 3 with 50 ns.,,,,,,,,,,
+14,General,,Calibration,,,delaying signal calorimeter 3,,,,
+"We shifted the calorimeters to the right by 10 mm, such that calorimeter 2 is where calorimeter 3 used to be.
+Now calorimeter 2 is receiving the beam.",,,,,,,,,,
+15,General,,Other,,,Move calorimators to the right,,,,
+We moved the main test scintillator for DESY Chain experiment so that it is in front of the beam,,,,,,,,,,
+16,General,,Other,,,Moved scintillator in front of the beam,,,,
+We delayed the signal of calorimeter 2 with 50 ns.,,,,,,,,,,
+17,General,,Calibration,,,delaying signal calorimeter 2,,,,
+Calorimeter 1 is now to the right of where calorimeter 2 used to be. Calorimeter 1 is in front the beam.,,,,,,,,,,
+18,General,,Other,,,Move calorimators to the right by 10 cm,,,,
+We delayed the signal of the calorimeter 1 with 50 ns.,,,,,,,,,,
+19,General,,Calibration,,,delaying signal calorimeter 1,,,,
+We turned on the scintillator before the magnet to a voltage of 1500V. The current is 267.75 uA.,,,,,,,,,,
+20,DESY Chain,,Other,,,Front scintillator turned on,,,,
+Changed the QDC gate to 150 ns.,,,,,,,,,,
+21,General,,Other,,,Changed QDC Gate,,,,
+We delayed the signal of the scintillator by 53 ns.,,,,,,,,,,
+22,General,,Calibration,,,delaying signal scintillator,,,,
+"> We shifted the calorimeters to the right by 10 mm, such that calorimeter 2 is where calorimeter 3 used to be.
+> Now calorimeter 2 is receiving the beam.
+Correction: 10 cm",,,,,,,,,,
+23,General,,Other,,,Move calorimators to the right,,,,
+Moved calorimeters to the right by 10 cm. Calorimeter 0 is in front of beam.,,,,,,,,,,
+24,General,,Other,,,Move calorimators to the right by 10 cm,,,,
+Voltages changed to 1450 volts. Current is 1212 uA.,,,,,,,,,,
+25,General,,Other,,,Change voltages of calorimeter 0,,,,
+Delayed the signal of calorimeter 0 with 53 ns.,,,,,,,,,,
+26,General,,Calibration,,,delaying signal calorimeter 0,,,,
+Moved calorimeters to the left by 40 cm.,,,,,,,,,,
+27,General,,Other,,,Move calorimators to the left by 40 cm,,,,
+delayed the signal of calorimeter 4 with 53 ns.,,,,,,,,,,
+28,General,,Calibration,,,delaying signal calorimeter 4,,,,
+"This message should be ignored.
+> We delayed the signal of the calorimeter 1 with 50 ns.",,,,,,,,,,
+29,General,,Calibration,,,delaying signal calorimeter 1,,,,
+"4 GeV;
+scintillator is in;",,,,,,,,,,
+30,DESY Chain,,New Run,55,1571580784,test run,,,,
+"QDC channel 0 scintillator is fine;
+QDC channel 1 calorimeter 1 - we only see the offset;
+QDC channel 2 calorimeter 2 - we only see the offset;
+QDC channel 3 calorimeter 3 - we only see the offset;
+QDC channel 4 calorimeter 4 - we might need to change the voltage;
+QDC channel 5 calorimeter 0 - we only see the offset.",,,,,,,,,,
+31,DESY Chain,,Monitoring,55,,checking the QDC response,,,,
+end of run,,,,,,,,,,
+32,DESY Chain,,Run Details,55,,end of run,,,,
+"1) Moving calorimeters
+- We wanted Calo #3 to be in the middle; #5 was there previously
+- Shifted Calo stage 20mm to the R to fix
+
+2) Addition of DWC
+- MM#1 (closest to beam entrance) is sparking, likely due to moisture
+- We removed it in order to bake it in an oven tomorrow (50-60C)
+- Added in the spare DWC in the same z position as the MM#1
+- Aligned via laser/bubble level to front one
+
+Need to calibrate DWC1
+
+~Naming Convention~
+1st DWC in z is ¨DWC0¨; second is ¨DWC1¨",,,,,,,,,,
+34,DESY Chain,,Other,,,Addition of DWC & moving calorimeters,,,,
+"DWC: 50 Bar
+MM: 50 Bar",,,,,,,,,,
+45,General,,Gas Conditions,,,Bottle pressures,,,,
+We started a new shift.,,,,,,,,,,
+46,General,,Other,,,Shift start,,,,
+Installed a timing unit and a NIM to TTL converter for the DWC calibration.,,,,,,,,,,
+87,General,,Other,,,Installed two NIM modules,,,,
+"Adjusted following gas conditions to
+
+MM: 4 L/hr
+DWCs: 3.5 L/hr
+
+Pressure in tanks was also measured
+MM: 50 bar
+DWC: 49 bar",,,,,,,,,,
+93,General,,Gas Conditions,,,Checked MM/DWC,,,,
+"Reconfigured the TDAQ file to only expect data from the DWC.
+
+Started by calibrating DWC0 w/ pulse into center",,,,,,,,,,
+94,DESY Chain,,Calibration,,1571667323,Calibration of DWCs,,,,
+,,,,,,,,,,
+95,DESY Chain,,Run Details,,1571666723,end of run,,,,
+Now calibration pulse input is plugged into DWC0 U/L,,,,,,,,,,
+96,DESY Chain,,Calibration,,1571667975,Calibration of DWC0 U/L,,,,
+We got about 20 000 events,,,,,,,,,,
+97,DESY Chain,,Run Details,,1571667975,end of run,,,,
+Now we have switched the input of the calibration pulses to DWC0 D/R,,,,,,,,,,
+98,DESY Chain,,Calibration,,1571668179,Calibration of DWC0 D/R,,,,
+"End of previous run, with about 21 000 events",,,,,,,,,,
+99,DESY Chain,,Run Details,,1571668179,end of run,,,,
+"Connected calibration cable into down right position of the DWC 1
+Looked at monitoring of DWC 1 and the plots were empty",,,,,,,,,,
+100,DESY Chain,,Calibration,,1571669104,DWC 1 Calibration Run,,,,
+"Checked cables to see why nothing was showing up on histograms. Unplugged and replugged it (no change in cable setup), but signal returned. Signal was really noisy which meant that it was all triggering above the threshold so we couldn't see the pulse. Changed the discriminator and adjusted threshold so that it was above the noise, but then we were getting double pulses. Adjusted width of pulses so that it would hold the signal. However, channel 7 was too thin of a pulse and wouldn't change the width without causing more problems. Checked high and low voltage, but they weren't the problem. Switched to another discriminator. Changed width again on second discriminator, looks like it is fixed! Phew",,,,,,,,,,
+101,DESY Chain,,Problem,,,DWC Signal,,,,
+32 000 events. Data is showing up on histograms (good news!),,,,,,,,,,
+102,DESY Chain,,Calibration,,1571675972,DWC 1 Calibration Run,,,,
+32 000 events. Data is showing up on histograms (good news!),,,,,,,,,,
+103,DESY Chain,,Calibration,,1571675972,DWC 1 Calibration Run,,,,
+Moved DWC 1 calibration cable to left upper. Did calibration run. 20 000 events. Data showing up on histogram.,,,,,,,,,,
+104,DESY Chain,,Calibration,,1571676710,DWC 1 Calibration Run,,,,
+Moved DWC 1 calibration cable to center spot. 35 000 events.,,,,,,,,,,
+105,DESY Chain,,Calibration,,1571676993,DWC 1 Calibration Run,,,,
+Turned on all detectors but scintillator with high voltage. Turned micromega 2 up to 525 from 510 volts.,,,,,,,,,,
+106,DESY Chain,,Other,,,Turning on Detectors,,,,
+Turned on all detectors but scintillator with high voltage. Turned micromega 2 up to 525 from 510 volts.,,,,,,,,,,
+107,DESY Chain,,Other,,,Turning on Detectors,,,,
+4.0 GeV. 100 000 runs,,,,,,,,,,
+108,DESY Chain,,New Run,56,1571678876,DESY Chain Experiment Test Run,,,,
+DWC 0 down cable broke. Replaced it,,,,,,,,,,
+109,General,,Problem,,,DWC Cable Break & Replacement,,,,
+4.0 GeV. 187 000 events.,,,,,,,,,,
+110,DESY Chain,,New Run,57,1571679770,Test Run with DESY Chain Experimental Setup,,,,
+"DWC graphs showed reasonable results on x-axis with progression but concentrated, straight line for y-axis. Some graphs didn't show up. Some graphs wanted to overflow on the micromegas (registering hits above amplitude). Some stuck pixels on mimosas (not something we did, just something to note for when you see a solid line in the graphs). Last 2 micromegas didn't see many events because Tungsten had not been removed.",,,,,,,,,,
+111,DESY Chain,,Run Details,57,1571679770,Test Run Results,,,,
+"Micromegas at 4 L/hour
+DWC's at 3.5 L/hour
+For DWC's gas pod at 45 bar
+For MM's gas pod at 50 bar",,,,,,,,,,
+112,General,,Gas Conditions,,,Gas System Status,,,,
+We measured the SC in the silver box that will be in beam today. The dimensions are 3 wide x 1 thick x 15/20 long,,,,,,,,,,
+113,DESY Chain,,Other,,,Scintillator Thicknesses,,,,
+"Prepared for next run by starting up our DAQ - prepared to take / convert data for DESYChain experiment to run the Mimosas.  
+
+
+MM - 50 bar
+DWC - 45 bar",,,,,,,,,,
+114,DESY Chain,,Other,,,Conditions for Next Run and Pressure,,,,
+10 autotriggers / sec for the calibration,,,,,,,,,,
+115,DESY Chain,,New Run,59,1571733514,QDC Calibration,,,,
+"at 100Hz for auto trigger
+SC(ch0) - 106 counts
+Ch1 and 2 were too offset to be normal, had to do an additional run",,,,,,,,,,
+116,DESY Chain,,New Run,60,1571733791,QDC Calibration,,,,
+"QDC noise problem diagnosis
+We disconnected the detectors in order to determine whether the problem was due to noise or QDC problems
+The issue was noise from the detectors on QDC1 and 2
+Course of action: re-tape the Calos in case of light leak",,,,,,,,,,
+117,DESY Chain,,New Run,61,1571734395,QDC Calibration,,,,
+Re-wrapped the Calos due to run problems in Calo 1 and 2,,,,,,,,,,
+118,DESY Chain,,Other,,,Calo re-wrapping,,,,
+"Continuing to determine the problems with the Calos, new run to determine background noise and significance of changes (taping) on calos. Run determined that the tape was effective.",,,,,,,,,,
+119,DESY Chain,,New Run,62,1571736480,QDC Calibration,,,,
+"Fixed QDC board so that there is full contact
+The offset for further data analysis: 20 000 events, DWCs calibrated.",,,,,,,,,,
+120,DESY Chain,,New Run,63,1571736681,QDC Calibration,,,,
+"Moved the SC out of beam.
+Run at 5GeV Positrons 90000 events
+Good correlation except between MM and DWC x pos, so we need to remove the tungsten",,,,,,,,,,
+121,DESY Chain,,New Run,64,1571737402,DWC and MM alignement,,,,
+50,,,,,,,,,,
+122,General,,Other,,,Tungsten,,,,
+"5GeV Positrons
+All Particle Peers equipment moved out of beam (so the whole stage with the alpide was moved out to the L)
+Tungsten sample holder moved out",,,,,,,,,,
+124,DESY Chain,,New Run,65,1571740568,Alignment Run,,,,
+"New shift team: Ilja, Charlie, Cecile, Derek, Sophie",,,,,,,,,,
+125,General,,Other,,,Start of Shift,,,,
+"Ended with 430 000 events
+-mislabeled as QDC calibration--should be alignment",,,,,,,,,,
+126,DESY Chain,,Run Details,65,1571740568,end of run,,,,
+"Checked the magnet for any loose metal that would be a problem when it was turned on
+Also checked gas flow on MM/DWCs - flow was 4 L/hr on MM and 3.5 L/hr on DWC",,,,,,,,,,
+127,General,,Other,,,Checking Magnet and Gas Flow,,,,
+"Turned on the BRM, monitoring the detectors over the camera to ensure none of them broke/were pulled towards the magnet. 
+Ramped up power in blocks of 100 milliTesla/100 A, given B(Tesla) = I (Amps)/1000.
+Reached 1.4 T with no issues before turning magnet to 0 again",,,,,,,,,,
+128,DESY Chain,,Other,,,Turning on BRM,,,,
+"Not a super-official run, more of a check to ensure that things are working correctly and checking what magnetic fields keep the beam within the detectors
+Starting with positron beam of 1 GeV, and ramping it up from there to 3 and 5 GeV",,,,,,,,,,
+129,DESY Chain,,New Run,66,1571746891,Monitoring How BRM Affects Beam,,,,
+"With a positron beam of 1 GeV:
+With no magnetic current, the centers of each readout are:
+-DWC0: -110 (x) 100 (y)
+-DWC1: -110 (x) 100 (y)
+-MM0: -1.5
+-MM1: -16
+
+Turned up BRM to 100 A/0.1 T to observe centers of readout:
+-Little to no change in the centers of the (x) peaks on DWC
+-DWC0: y peak shifted to -100
+-DWC1: y peak shifted to -100
+-MM0: Center moved from -1.5 to 9
+-MM1: no change, reading out y position
+
+Magnet was turned to 200 A/0.2 T
+-DWC0: y shifted to -220
+-DWC1: y shifted to -220
+-Micromega 0 reached the edge (20) of the detector
+
+Magnet was turned to 300 A/0.3 T:
+-DWCs showed no readout at 300 A
+-Likewise for MM
+
+100 A appears good for a 1 GeV beam in order to get good detector readout",,,,,,,,,,
+130,DESY Chain,,Run Details,66,1571746891,BRM Check Results,,,,
+"On the histogram readout, the DWC x and y charts are flipped - the x charts read out the data for y, and vice versa",,,,,,,,,,
+131,DESY Chain,,Problem,,,DWC X and Y Flipped,,,,
+"For a positron beam of 3 GeV:
+
+With no current running through the BRM:
+-DWC0: -110 (x) 100 (y)
+-DWC1: -110 (x) 100 (y)
+-MM0: -1.5
+-MM1: -16 (questionable)
+
+Magnet current was increased to 300 A/0.3 T
+-DWC0: -110 (x) -135 (y)
+-DWC1: -110 (x) -135 (y)
+-MM0: 10
+-MM1: has very few entries (suggesting the beam is out of frame)
+
+Magnet current was reduced to 200 A/0.2 T
+
+Suggests 300 A is a good current for 3 GeV particles",,,,,,,,,,
+132,DESY Chain,,Run Details,66,1571746891,BRM Check Results,,,,
+"For a positron beam of 5 GeV:
+
+Positions of the detectors were assumed to be the same at 0 A
+-DWC0: -110 (x) 100 (y)
+-DWC1: -110 (x) 100 (y)
+-MM0: -1.5
+-MM1: -16 (but few entries)
+
+At 500 A/0.5 T, the centers of the detectors are:
+-DWC0: -110 (x) -150 (y)
+-DWC1: -110 (x) -150 (y)
+-MM0: 10
+-MM1: around -16 (but few entries)
+
+Suggests 500 A/0.5 T is a good current for deflection of 5 GeV particles",,,,,,,,,,
+134,DESY Chain,,Run Details,66,1571746891,BRM Check Results,,,,
+"Testing out the deflection from the BRM with different electron energies, rather than positrons. Detectors are not quite centered, so testing whether the same currents (as positrons) still lie within the detectors",,,,,,,,,,
+135,DESY Chain,,New Run,67,1571750686,BRM Deflection--Electrons,,,,
+"With a 1 GeV electron beam:
+
+Centers of the peak at 0 A:
+-DWC0: -110 (x), 100 (y)
+-DWC1: -110 (x), 100 (y)
+-MM0: -1.5
+-MM1: around -16, but few entries
+
+Centers of the peak when magnet is at 100 A:
+-Peaks of the DWCs were close to the edge, although still visible
+-MM was not giving great data
+
+Current was increased to 150 A:
+-Neither DWC nor MM had many hits, suggesting the beam had moved out of the detector
+
+Current was decreased to 80 A:
+-Peaks of DWC were visible again, but cut off, suggesting it had reached the edge of the detector
+
+Current was decreased to 50 A:
+-peaks were fully visible",,,,,,,,,,
+136,DESY Chain,,Run Details,67,1571750686,BRM Deflection--1GeV Electrons,,,,
+"With a beam of 5 GeV electrons:
+
+Positions were assumed to be the same for 0 A
+
+At a current of 500 A:
+-Peaks were cut off in DWCs and MMs, suggesting they'd reached the edge of the beam
+
+Current was reduced to 400 A:
+-Peaks are still cut off at the edge of the detector
+
+Current was reduced to 300 A:
+-Peaks are still cut off, but significantly less",,,,,,,,,,
+137,DESY Chain,,Run Details,67,1571750686,BRM Deflection--5GeV Electrons,,,,
+"There were some alignment issues observed while checking the magnet, so we shifted DWC1 to the left by 0.6 cm to the left. We checked it with the laser and we think it should be good.",,,,,,,,,,
+138,DESY Chain,,Other,,,Adjusting DWC position,,,,
+"Start of shift with Lam, Abracha, Janiek. August will be running late.",,,,,,,,,,
+139,General,,Other,,,Start of Shift,,,,
+"1 GeV
+-187.42 A",,,,,,,,,,
+140,DESY Chain,,New Run,68,1571755142,DWC 1 Calibration Run,,,,
+"Turned off BRM
+Reversed polarity to +187.29
+Observing odd spike in calibration graph, implying magnetic field not at fault.",,,,,,,,,,
+141,DESY Chain,,Run Details,,,DWC 1 Calibration Run,,,,
+"Set BRM to 20 A
+Still observing odd noisy spike.
+
+Set BRM to 100 A
+Graph appears more centered, some noise
+
+Set BRM to 200 A
+Graph shifted more to the left. Peak has disappeared
+
+Set BRM to 300 A
+Shifted even more to the left. Demonstrates that is indeed particles and not just noise moving through DWC
+
+Set BRM to 150 A
+
+Set BRM to 100 A
+
+Set BRM to 50 A
+
+Set BRM to 20 A
+
+Turned off BRM - noisy peak returns.",,,,,,,,,,
+142,DESY Chain,,Run Details,,,DWC 1 Calibration Run,,,,
+"Offset too much in opposition direction.
+Entered beam to nudge DWC",,,,,,,,,,
+143,DESY Chain,,Run Details,,,DWC 1 Calibration Run - Moved DWC 1 cm to the right,,,,
+"Graph centered around -10, good enough for us.",,,,,,,,,,
+144,DESY Chain,,Run Details,,,DWC 1 Calibration Run - Move DWC more to the left,,,,
+"Do not use this run, used for calibration of DWC and playing around with magnetic field.",,,,,,,,,,
+145,DESY Chain,,Run Details,,,End of run,,,,
+"5 GeV, 187.29 A
+Testing DWC",,,,,,,,,,
+146,DESY Chain,,New Run,69,1571757714,Start of Alignment Run,,,,
+"End with 300,000 events.",,,,,,,,,,
+147,DESY Chain,,Run Details,,,End of Alignment Run,,,,
+"5 GeV
+187.29 A",,,,,,,,,,
+148,DESY Chain,,New Run,70,1571762828,Start of Run,,,,
+20000 events,,,,,,,,,,
+149,DESY Chain,,Run Details,,,End of run,,,,
+"6 GeV
+224.80 A",,,,,,,,,,
+150,DESY Chain,,New Run,71,1571763168,Start of Beam Characterization,,,,
+20000 events.,,,,,,,,,,
+151,DESY Chain,,Run Details,,,End of Beam Characterization run,,,,
+"6 Gev
+150 A",,,,,,,,,,
+152,DESY Chain,,New Run,72,1571763988,"Start of Beam Characterization (150 A, 6 GeV)",,,,
+20000 events,,,,,,,,,,
+153,DESY Chain,,Run Details,,,End of run,,,,
+"6 GeV
+300 A",,,,,,,,,,
+154,DESY Chain,,New Run,73,1571764735,"Start of Beam Characterization (300 A, 6 GeV)",,,,
+20000 events.,,,,,,,,,,
+155,DESY Chain,,Run Details,,,End of Beam Characterization run,,,,
+,,,,,,,,,,
+156,DESY Chain,,New Run,74,1571765494,"Start of Beam Characterization (450 A, 6 GeV)",,,,
+20000 events,,,,,,,,,,
+157,DESY Chain,,Run Details,,,End of run,,,,
+,,,,,,,,,,
+158,DESY Chain,,New Run,75,15717662721,"Start of Beam Characterization (600 A, 1 GeV)",,,,
+We've reached the edge of DWC 1 according to the graphs (running at 600 A).,,,,,,,,,,
+159,DESY Chain,,Run Details,,,Edge of DWC 1,,,,
+43 Bars,,,,,,,,,,
+160,General,,Gas Conditions,,,Checking gas pressure,,,,
+20000 events,,,,,,,,,,
+161,DESY Chain,,Run Details,,,End of Beam Characterization run,,,,
+Beam selector magnet at 224.8035A,,,,,,,,,,
+162,DESY Chain,,New Run,76,1571769013,Run with -6 GeV beam and 300A,,,,
+,,,,,,,,,,
+163,DESY Chain,,Run Details,,,End run,,,,
+Beam selector magnet at 224.8035A,,,,,,,,,,
+164,DESY Chain,,New Run,77,1571769776,Run with -6 GeV beam and 600A,,,,
+,,,,,,,,,,
+165,DESY Chain,,Run Details,,,End run,,,,
+Beam selector magnet at 224.8035A,,,,,,,,,,
+166,DESY Chain,,New Run,78,1571770488,Run with -6 GeV beam and 450A,,,,
+,,,,,,,,,,
+167,DESY Chain,,Run Details,,,End of run,,,,
+Beam selector magnet at 224.8035A,,,,,,,,,,
+168,DESY Chain,,New Run,79,1571771239,Run with -6 GeV beam and 150A,,,,
+,,,,,,,,,,
+169,DESY Chain,,Run Details,,,Run stopped,,,,
+Beam selector magnet at 224.8035A,,,,,,,,,,
+170,DESY Chain,,New Run,80,1571772052,Run with -6 GeV beam and 0A,,,,
+,,,,,,,,,,
+171,DESY Chain,,Run Details,,,End of run,,,,
+"Fixed the noise in the DWC, needs new calibration files.
+
+Calib position: Left Up
+
+40K events",,,,,,,,,,
+172,DESY Chain,,Calibration,,1571818444,DWC1 Calibration,,,,
+"Fixed the noise in the DWC, needs new calibration files.
+
+Calib position: Left Up
+
+40K events",,,,,,,,,,
+173,DESY Chain,,Calibration,,1571818731,DWC1 Calibration,,,,
+"People on shift: Charlie, Derek, Sophie, Ilja, Cecile",,,,,,,,,,
+174,General,,Other,,,Start of Shift,,,,
+"Now that the DWCs have been grounded, they need to be re-calibrated. Calibration cable is in position C.",,,,,,,,,,
+176,DESY Chain,,Calibration,,1571822855,DWC 0 Calibration--C,,,,
+"Means for DWC 0:
+-x: 1.00
+-y: 2.4
+
+Ended with 80 000 events",,,,,,,,,,
+177,DESY Chain,,Run Details,,1571822055,end of run,,,,
+Calibration cable has been moved to position U/L,,,,,,,,,,
+178,DESY Chain,,Calibration,,1571823435,DWC 0 Calibration--U/L,,,,
+"MM: 4.2 L/hr
+DWC: 3.5 L/hr
+
+Gas pressure for MM: 46 bar
+Gas pressure for DWC: 40 bar",,,,,,,,,,
+179,General,,Gas Conditions,,,Flow Rate in MM/DWC,,,,
+"Means of the DWC histograms:
+-x: -161
+-y: 164.4
+
+Ended with 40 000",,,,,,,,,,
+180,DESY Chain,,Run Details,,1571823435,end of run,,,,
+Calibration cable has been moved to the D/R position,,,,,,,,,,
+181,DESY Chain,,Calibration,,1571823752,DWC 0 Calibration--D/R,,,,
+"Means of the DWC0 histogram:
+-x: 165.7
+-y: -162.1
+
+Ended with 40 000 events",,,,,,,,,,
+182,DESY Chain,,Run Details,,1571823752,end of run,,,,
+Calibrating DWC1 now. Cable is in position C,,,,,,,,,,
+183,DESY Chain,,Calibration,,1571824140,DWC 1 Calibration--C,,,,
+"Means of the DWC1 histogram:
+-x: -1.0
+-y: 1.5
+
+Ended with 40 000 events",,,,,,,,,,
+184,DESY Chain,,Run Details,,1571824140,end of run,,,,
+Calibration cable has been moved to position U/L,,,,,,,,,,
+185,DESY Chain,,Calibration,,1571824472,DWC 1 Calibration--U/L,,,,
+"Means of the DWC1 histogram:
+-x: -164.9
+-y: 167.1
+
+Ended with 40 000 events",,,,,,,,,,
+186,DESY Chain,,Run Details,,1571824472,end of run,,,,
+Calibration cable has been moved to the D/R position,,,,,,,,,,
+187,DESY Chain,,Calibration,,1571824778,DWC 1 Calibration--D/R,,,,
+"Means of the DWC1 histogram:
+-x: 164.5
+-y: -164.7
+
+Ended with 40 000 events",,,,,,,,,,
+188,DESY Chain,,Run Details,,1571824778,end of run,,,,
+"We reassembled the faulty MicroMega detector that was sent off to be placed in the climate chamber.
+
+The boards were placed back on and connected to a power supply and the computer, in order to measure the connection of the screws to the board (a good connection results in some, but not too much, noise on the readout). On the contact points without much noise, we tightened the screws to create a good connection.",,,,,,,,,,
+189,DESY Chain,,Other,,,Testing the Baked MicroMega Detector,,,,
+"Do not use
+
+> Fixed the noise in the DWC, needs new calibration files.
+> 
+> Calib position: Left Up
+> 
+> 40K events",,,,,,,,,,
+190,DESY Chain,,Calibration,,1571818444,DWC1 Calibration,,,,
+"Do not use
+
+> Fixed the noise in the DWC, needs new calibration files.
+> 
+> Calib position: Left Up
+> 
+> 40K events",,,,,,,,,,
+191,DESY Chain,,Calibration,,1571818731,DWC1 Calibration,,,,
+"Moved the DESYChain scintillator into the beam. We've centered the calorimeters by eye, but now we want to make sure they're in the middle. In addition, we plugged back in some HDMI cables that we had disconnected earlier.",,,,,,,,,,
+192,DESY Chain,,New Run,81,1571848127,Start: Scintillator spectra characterization + calorimeter centering,,,,
+The EUDAQ was not set up correctly + there was issue with the Mimosas,,,,,,,,,,
+193,DESY Chain,,Run Details,81,1571848127,end of run,,,,
+"Fixed everything (making sure everything from uninterruptable power supply that was turned off was re-configured) and started it up again.
+
+5 GeV positrons",,,,,,,,,,
+194,DESY Chain,,New Run,84,1571848127,Start: Scintillator spectra characterization + calorimeter centering,,,,
+"DESYChain scintillator:
+- scintillator voltage changed to 1350 V
+
+Calorimeters:
+- calorimeter 2 seems to be being hit the most, but many overflow events, so voltage is too high
+- changed voltage on calo2 to 1150 V
+
+we then moved the stage 10cm to the R
+- changed voltage on calo1 to 1375 V
+
+another 10cm to the R
+- changed voltage on calo0 to 1165 V
+
+then back to centre then 10cm L
+- changed voltage on calo3 to 1175 V
+
+another 10cm L
+- changed voltage on calo4 to 1270 V
+
+Graphing the angle of the particles via the Mimosa detector showed a strip with less high angles. The high angles are from scattering on the scintillator, which suggested the strip without that is b/ the scintillator was not entirely in the beam (*inside* the dark box). We checked and this was not the case. 
+
+After the main particle (not offset) peak we saw a series of peaks decreasing in size and regularily spaced. It was suggested that the reason was this was that the event could contain 1 particle or 2 particles or 3, etcetera. Cristavao wrote a code to only plot it if only 1 track was shown in the Mimosa. That significantly decreased the secondary peaks, but they are still there. This is an important characteristic of the beam to remember for analysis.
+
+Scintillator voltage was then changed to 1580 V
+
+Re-centered stage and ended run with about 392 K events",,,,,,,,,,
+195,DESY Chain,,Run Details,84,1571848127,Updates & end run,,,,
+,,,,,,,,,,
+196,General,,Other,,,Recentered the Calorimeters,,,,
+"Observation that lead to this action:
+ * DWCs and MMs showed one sharp peak and a very large spot next to it.
+ * Mimosas showed the typical beam profile, but with a significant edge and a very asymmetric background (see e.g. EUDAQ run 84)
+   * When running with autotriggers (remember, Mimosas are rather slow), the shape was still visible, but without any edge
+ * DESY Chain scintillator showed several, equidistant peaks
+
+Conclusion: The trigger scintillator is off center, such that we trigger on occasional, largely deflected particles and a small part of the actual core beam.
+
+Observations after action:
+ * DWC and MMs show a fine peak
+ * Mimosa hits are more or less symmetric
+ * Scintillator signal shows only one peak.
+ * Support scientists rock (or do stupid things and then just correct them)",,,,,,,,,,
+197,DESY Chain,,Other,,,Moved trigger scintillators by ~ 7 mm,,,,
+"Shift starting with Lam, August, Abracha, Janiek, and Cristovao",,,,,,,,,,
+198,General,,Other,,,New Shift Start,,,,
+"3.4 DWC
+4.3 MM",,,,,,,,,,
+199,General,,Gas Conditions,,,Gas conditions,,,,
+Right by 20 cm to align far right calorimeter in the beam.,,,,,,,,,,
+200,General,,Other,,,Moved calorimeters to the right,,,,
+Moved scintillator out of the beam to prepare for calorimeter calibration.,,,,,,,,,,
+201,DESY Chain,,Other,,,Moved scintillator out of the beam,,,,
+5 GeV,,,,,,,,,,
+202,DESY Chain,,New Run,95,1571905465,Start of Calorimeter Calibration,,,,
+"Data was copied to the directory: /nfs/dust/fhlabs/group/BL4S/data/DESYChain/
+
+The root files can be found in the subdirectory ConvertedData",,,,,,,,,,
+203,DESY Chain,,Other,,,Converted data has been copied,,,,
+40000 events.,,,,,,,,,,
+204,DESY Chain,,Run Details,,,End of Calorimeter Calibration run,,,,
+3 GeV,,,,,,,,,,
+205,DESY Chain,,New Run,96,1571905775,Start of Calorimeter Calibration,,,,
+40000 events,,,,,,,,,,
+206,DESY Chain,,Run Details,,,End of Calorimeter Calibration run,,,,
+"*accidentally zeroed - potential drift
+Moved to the left by 10 cm to put calorimeter 1 in the center.",,,,,,,,,,
+207,General,,Other,,,Moved calorimeters to the left,,,,
+"3 GeV
+Calorimeter 1 in center",,,,,,,,,,
+208,DESY Chain,,New Run,97,1571906107,Start of Calorimeter Calibration,,,,
+,,,,,,,,,,
+209,DESY Chain,,Run Details,,,Run stopped,,,,
+5 GeV calorimeter 1 calibration,,,,,,,,,,
+210,DESY Chain,,New Run,98,1571906358,Calorimeter 1 Calibration,,,,
+"Run stopped with 55,000 events",,,,,,,,,,
+211,DESY Chain,,Run Details,98,,End of run,,,,
+"Calorimeter moved 10 cm left, now calibrating calorimeter 2",,,,,,,,,,
+212,DESY Chain,,New Run,99,1571906677,Calorimeter 2 calibration run,,,,
+,,,,,,,,,,
+213,DESY Chain,,Run Details,99,,Run stopped,,,,
+Calibrating calorimeter 2 at 3.0 GeV,,,,,,,,,,
+214,DESY Chain,,New Run,100,1571906955,New calibration run,,,,
+"Run stopped, 40,000 events",,,,,,,,,,
+215,DESY Chain,,Run Details,100,1571906955,End of run,,,,
+Calibrating calorimeter 3 (moved calorimeters 10 cm to the left). 3 GeV beam,,,,,,,,,,
+216,DESY Chain,,New Run,101,1571907163,New calibration run,,,,
+,,,,,,,,,,
+217,DESY Chain,,Run Details,101,1571907163,End of run,,,,
+Calibrating calorimeter 3 at 5 GeV,,,,,,,,,,
+218,DESY Chain,,New Run,102,1571907343,New calibration run,,,,
+End of calibration run,,,,,,,,,,
+219,DESY Chain,,Run Details,102,,Run stopped,,,,
+Calibrating calorimeter 4 (moved calorimeters 10 cm left),,,,,,,,,,
+220,DESY Chain,,New Run,103,1571907628,New calibration run,,,,
+Stopping calibration run,,,,,,,,,,
+221,DESY Chain,,Run Details,103,,End of run,,,,
+Calibrating calorimeter 4 with 3.0 GeV,,,,,,,,,,
+222,DESY Chain,,New Run,104,1571907892,New calibration run,,,,
+Calorimeter 4 calibration run stopped,,,,,,,,,,
+223,DESY Chain,,Run Details,104,,Run stopped,,,,
+20 cm to align calorimeter 2 back in the middle.,,,,,,,,,,
+224,General,,Other,,,Moved calorimeters to the right,,,,
+"5 GeV beam
+
+Alignment run (checking position of first DWC)",,,,,,,,,,
+225,DESY Chain,,New Run,105,1571908435,New run,,,,
+Alignment run stopped,,,,,,,,,,
+226,DESY Chain,,Run Details,105,,Run stopped,,,,
+Tried to shift DWC by 5 mm,,,,,,,,,,
+227,DESY Chain,,Other,,,Adjusting DWC position,,,,
+,,,,,,,,,,
+228,DESY Chain,,New Run,106,1571908717,New alignment run,,,,
+Stopping alignment run,,,,,,,,,,
+229,DESY Chain,,Run Details,106,,End of run,,,,
+"Alignment run
+Shifted DWC",,,,,,,,,,
+230,DESY Chain,,New Run,107,1572128197,New alignment run,,,,
+,,,,,,,,,,
+231,DESY Chain,,Run Details,107,,End of run,,,,
+Increasing DWC 1 voltage to 2590,,,,,,,,,,
+232,DESY Chain,,Other,,,Increasing DWC voltage,,,,
+,,,,,,,,,,
+233,DESY Chain,,New Run,108,1571909187,New alignment run,,,,
+,,,,,,,,,,
+234,DESY Chain,,Run Details,108,,End of run,,,,
+Increasing DWC 1 voltage to 2600 V,,,,,,,,,,
+235,DESY Chain,,Other,,,Increasing DWC voltage,,,,
+Run stopped quickly (no second log),,,,,,,,,,
+236,DESY Chain,,New Run,109,1571909338,Start of Run,,,,
+2620 Volts in DWC 1,,,,,,,,,,
+237,DESY Chain,,Other,,,Increasing DWC voltage,,,,
+,,,,,,,,,,
+238,DESY Chain,,New Run,109,1571909460,Start of Run,,,,
+"No events built
+
+EUDAQ was stopped and restarted once for same TDAQ run (also includes EUDAQ 111), no help with this issue",,,,,,,,,,
+239,DESY Chain,,Run Details,,,End of run,,,,
+,,,,,,,,,,
+240,DESY Chain,,New Run,112,1571909598,New run,,,,
+,,,,,,,,,,
+241,DESY Chain,,Run Details,,,End of run,,,,
+Changed threshold multiplier to 8,,,,,,,,,,
+242,DESY Chain,,New Run,113,1571910589,New run,,,,
+,,,,,,,,,,
+243,DESY Chain,,Run Details,,,End of run,,,,
+"changed theshold multipliers:
+(IP: multiplier)
+192.168.0.2: 9
+192.168.0.3: 10
+192.168.0.5: 9",,,,,,,,,,
+244,DESY Chain,,Other,,,threshold multipliers changed,,,,
+,,,,,,,,,,
+245,DESY Chain,,New Run,114,1571910905,New alignment run,,,,
+,,,,,,,,,,
+246,DESY Chain,,Other,,,Updated data files,,,,
+,,,,,,,,,,
+247,DESY Chain,,Run Details,114,,Run stopped,,,,
+BRM turned on to 125 amps,,,,,,,,,,
+248,DESY Chain,,New Run,115,1571913030,New run,,,,
+"100,000 events",,,,,,,,,,
+249,DESY Chain,,Run Details,115,,Run stopped,,,,
+BRM now with 250 amps,,,,,,,,,,
+250,DESY Chain,,New Run,116,1571913683,Start of Run,,,,
+,,,,,,,,,,
+251,DESY Chain,,Run Details,,,Run stopped,,,,
+BRM now at 375 amps,,,,,,,,,,
+252,DESY Chain,,New Run,117,1571914265,New run,,,,
+,,,,,,,,,,
+253,DESY Chain,,Run Details,,,End of run,,,,
+started the run with BMR at 500 amps,,,,,,,,,,
+254,DESY Chain,,New Run,118,1571915680,Start of Run,,,,
+With the current of the BRM of 500 amps we found that the beam is bend too much and therefore the beam misses a part of the DWC.,,,,,,,,,,
+255,DESY Chain,,Run Details,118,1571915680,bending of beam,,,,
+run ended with 108421 events.,,,,,,,,,,
+256,DESY Chain,,Run Details,118,1571915680,End of run,,,,
+started run with electrons and with the BRM at 0 amps,,,,,,,,,,
+257,DESY Chain,,New Run,119,,ignore this one,,,,
+started run with electrons (5 GeV and -187.289 amps) and with the BRM at 500 amps.,,,,,,,,,,
+258,DESY Chain,,New Run,119,1571917572,Start of Run,,,,
+End of run with 51243. See ID at ID 255 for reason we didn't take 100000 runs.,,,,,,,,,,
+259,DESY Chain,,Run Details,119,1571917572,End of run,,,,
+BRM at 375.0057 amps,,,,,,,,,,
+260,DESY Chain,,New Run,120,1571918053,Start of Run,,,,
+run ended at 100000 events,,,,,,,,,,
+261,DESY Chain,,Run Details,120,1571918053,End of run,,,,
+started run with BRM at 250 amps,,,,,,,,,,
+262,DESY Chain,,New Run,121,1571918744,Start of Run,,,,
+run ended at 100045 events,,,,,,,,,,
+263,DESY Chain,,Run Details,121,1571918744,end of run,,,,
+Started run with BRM at 124.998 amps.,,,,,,,,,,
+264,DESY Chain,,New Run,122,1571919408,Start of Run,,,,
+ended the run at 100202 events,,,,,,,,,,
+265,DESY Chain,,Run Details,122,1571919408,End of run,,,,
+started run with BRM at 0 amps,,,,,,,,,,
+266,DESY Chain,,New Run,123,1571920030,Start of Run,,,,
+Run ended at 100136 events,,,,,,,,,,
+267,DESY Chain,,Run Details,123,1571920030,End of run,,,,
+beam set to 3 Gev (-112.383 amps) with BRM at 0 amps,,,,,,,,,,
+268,DESY Chain,,New Run,124,1571920674,Start of Run,,,,
+Run ended at 100214 events.,,,,,,,,,,
+269,DESY Chain,,Run Details,124,1571920674,End of run,,,,
+Run started with BRM at 124.994 amps.,,,,,,,,,,
+270,DESY Chain,,New Run,125,1571921075,Start of Run,,,,
+Ended run at 99847 events.,,,,,,,,,,
+271,DESY Chain,,Run Details,125,1571921075,End of run,,,,
+Started run with BRM at 200 amps.,,,,,,,,,,
+272,DESY Chain,,New Run,126,1571921526,Start of Run,,,,
+Run ended at 99375 events.,,,,,,,,,,
+273,DESY Chain,,Run Details,126,1571921526,End of run,,,,
+Run started with BRM at 75.006 amps.,,,,,,,,,,
+274,DESY Chain,,New Run,128,1571922014,Start of Run,,,,
+Run ended at 100898 events.,,,,,,,,,,
+275,DESY Chain,,Run Details,128,1571922014,End of run,,,,
+Run started with 3 GeV positrons (112.38 amps) and with the BRM at 75.006 amps.,,,,,,,,,,
+276,DESY Chain,,New Run,129,1571922516,Start of Run,,,,
+Run ended at 100663 events.,,,,,,,,,,
+277,DESY Chain,,Run Details,129,1571922516,End of run,,,,
+started run with BRM at 124.994 amps,,,,,,,,,,
+278,DESY Chain,,New Run,130,1571922901,Start of Run,,,,
+during data analysing the MicroMegas monitor chamber 2 should be multiplide by -1.,,,,,,,,,,
+279,DESY Chain,,Other,,,data analysing remark,,,,
+Run ended at 101093 events.,,,,,,,,,,
+280,DESY Chain,,Run Details,130,1571922901,End of run,,,,
+started run with BRM at 200 amps.,,,,,,,,,,
+281,DESY Chain,,New Run,131,1571923287,Start of Run,,,,
+Run ended at 100496 events.,,,,,,,,,,
+282,DESY Chain,,Run Details,131,1571923287,End of run,,,,
+started run with BRM at 0 amps,,,,,,,,,,
+283,DESY Chain,,New Run,132,1571923676,Start of Run,,,,
+Run ended at 105597 events,,,,,,,,,,
+284,DESY Chain,,Run Details,132,1571923676,End of run,,,,
+Run started with Beam set to 1 GeV electrons (37.423 amps) and with the BRM at 0 amps.,,,,,,,,,,
+285,DESY Chain,,New Run,133,1571924084,Start of Run,,,,
+run ended at 100359 events,,,,,,,,,,
+286,DESY Chain,,Run Details,133,1571924084,End of run,,,,
+Run started with BRM at 49.99 amps,,,,,,,,,,
+287,DESY Chain,,New Run,134,1571924411,Start of Run,,,,
+Run ended at 100754 events.,,,,,,,,,,
+288,DESY Chain,,Run Details,134,1571924411,End of run,,,,
+Run started with BRM at 100 amps,,,,,,,,,,
+289,DESY Chain,,New Run,135,1571924727,Start of Run,,,,
+Run ended at 126272 events.,,,,,,,,,,
+290,DESY Chain,,Run Details,135,1571924727,End of run,,,,
+Run started with BRM at 75.006 amps,,,,,,,,,,
+291,DESY Chain,,New Run,136,1571925201,Start of Run,,,,
+Run ended at 100095,,,,,,,,,,
+292,DESY Chain,,Run Details,136,1571925201,End of run,,,,
+Run started with BRM at 24.994 amps.,,,,,,,,,,
+293,DESY Chain,,New Run,137,1571925498,Start of Run,,,,
+Run ended at 110836 events.,,,,,,,,,,
+294,DESY Chain,,Run Details,137,1571925498,End of run,,,,
+Run started with beam to 1 GeV electrons (-37.43 amps) and with BRM at 24.994 amps.,,,,,,,,,,
+295,DESY Chain,,New Run,138,1571925880,Start of Run,,,,
+Run ended at 110391 events.,,,,,,,,,,
+296,DESY Chain,,Run Details,138,1571925880,End of run,,,,
+Run started with BRM at 49.99 amps.,,,,,,,,,,
+297,DESY Chain,,New Run,139,1571926227,Start of Run,,,,
+Run ended at 100483 events,,,,,,,,,,
+298,DESY Chain,,Run Details,139,1571926227,End of run,,,,
+Run started with BRM at 75.006 amps,,,,,,,,,,
+299,DESY Chain,,New Run,140,1571926511,Start of Run,,,,
+Run ended at 101035 events.,,,,,,,,,,
+300,DESY Chain,,Run Details,140,1571926511,End of run,,,,
+Run started with BRM at 0 amps.,,,,,,,,,,
+301,DESY Chain,,New Run,141,1571926803,Start of Run,,,,
+Run ended at 72279. It stoped itself because of unknown reasons.,,,,,,,,,,
+302,DESY Chain,,Run Details,141,1571926803,Abrupt end of run,,,,
+Run started with BRM at 0 amps,,,,,,,,,,
+303,DESY Chain,,New Run,144,1571927243,Start of Run,,,,
+Run ended at 99880 events,,,,,,,,,,
+304,DESY Chain,,Run Details,144,1571927243,End of run,,,,
+"Started at 16:34 with Derek, Ilya, Cecile, Sophie, and Charlie.",,,,,,,,,,
+305,General,,Other,,,Team 1 Evening Shift,,,,
+We moved the scintillator into the beam.,,,,,,,,,,
+306,DESY Chain,,Other,,,Scintillator Movement,,,,
+"We started an alignment run with the scintillator in the beam.
+BRM: Not on;
+Beam Energy: 5 GeV;
+Beam Type: Positrons",,,,,,,,,,
+307,DESY Chain,,New Run,145,1571928699,Alignment Run of Scintillator in Beam,,,,
+"Events: 100,426",,,,,,,,,,
+308,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: Positrons;
+Beam Energy: 1 GeV;
+BRM: No magnet",,,,,,,,,,
+309,DESY Chain,,New Run,146,1571929562,Beam Run,,,,
+"Events: 151,304",,,,,,,,,,
+310,DESY Chain,,Gas Conditions,,,End of Run,,,,
+"Beam Type: Positrons;
+Beam Energy: 1 GeV;
+BRM: 25 Amps",,,,,,,,,,
+311,DESY Chain,,New Run,147,1571930424,New Run,,,,
+Events: 108521,,,,,,,,,,
+312,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: Positrons;
+Beam Energy: 1 GeV;
+BRM: 50 amps",,,,,,,,,,
+313,DESY Chain,,New Run,148,1571930756,New Run,,,,
+Config in the middle of the run. Need to Redo,,,,,,,,,,
+314,DESY Chain,,Other,,,Problem with run,,,,
+Same as the last run,,,,,,,,,,
+315,DESY Chain,,New Run,149,1571930905,New Run,,,,
+High voltage was off. Have to retake data. This nullifies all data from our shift. Scintillators were off.,,,,,,,,,,
+316,DESY Chain,,Other,,,A problem,,,,
+Same as the last last one.,,,,,,,,,,
+317,DESY Chain,,New Run,150,1571931443,New Run,,,,
+"Events: 105,283",,,,,,,,,,
+318,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: Positrons;
+Beam Energy: 1 GeV;
+BRM: 25 amps",,,,,,,,,,
+319,DESY Chain,,New Run,151,1571931737,New Run,,,,
+"Events: 101,538
+So sad. :( :(",,,,,,,,,,
+320,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: Positron;
+Beam Energy: 1 GeV;
+BRM: 0 amps",,,,,,,,,,
+321,DESY Chain,,New Run,152,1571932015,New Run,,,,
+"Events: 101,870",,,,,,,,,,
+322,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 1 GeV;
+BRM: 75 amps",,,,,,,,,,
+323,DESY Chain,,New Run,153,1571932325,New Run,,,,
+"Events: 101,695",,,,,,,,,,
+324,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: positrons;
+Beam Energy: 3 GeV;
+BRM: 75 amps",,,,,,,,,,
+325,DESY Chain,,New Run,154,1571932668,New Run,,,,
+"Events: 100,707
+Once upon a time, there were five cats in a magical land. These cats were all friends, but from different places. Two of the cats were from a faraway land called Meow-Groningen. The other three were from a place called Meow-Salt Lake City. One of these cats had the name of Markus. Markus was tired and was on the night shift. He was bored and so he typed out a story about cats. Hmmm... What's this? How could this be? Markus is actually me! Hah, you got pranked.",,,,,,,,,,
+326,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: positrons;
+Beam Energy: 3 GeV;
+BRM: 125 amps",,,,,,,,,,
+327,DESY Chain,,New Run,155,1571933143,New Run,,,,
+"Events: 101,049",,,,,,,,,,
+328,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 3 GeV;
+BRM: 200 amps",,,,,,,,,,
+329,DESY Chain,,New Run,156,1571933521,New Run,,,,
+"Events: 100,950",,,,,,,,,,
+330,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 3 GeV;
+BRM: 0 amps;
+Hello, its Markus again. Today I'm writing about the weather seems to always to be gray and drab which makes me very sad. Well I'm signing off again for today.",,,,,,,,,,
+331,DESY Chain,,New Run,157,1571933929,New Run,,,,
+"Events: 100,586",,,,,,,,,,
+332,DESY Chain,,Other,,,End of Run,,,,
+"Beam Type: positrons;
+Beam Energy: 5 GeV;
+BRM: 0 amps",,,,,,,,,,
+333,DESY Chain,,New Run,158,1571934315,New Run,,,,
+"Events: 100,376",,,,,,,,,,
+334,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 5 GeV;
+BRM: 125 amps",,,,,,,,,,
+335,DESY Chain,,New Run,159,1571934931,New Run,,,,
+"Correction of Elog number 285: the beam type is positrons, not electrons. In addition, in the runs with Elog numbers 287, 289, 291 and 293, the beam type used is also positrons.
+
+.",,,,,,,,,,
+336,DESY Chain,,New Run,133,1571924084,Start of Run,,,,
+"Events: 100,000",,,,,,,,,,
+337,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 5 GeV;
+BRM: 250 amps",,,,,,,,,,
+338,DESY Chain,,New Run,161,1571935652,New Run,,,,
+"Events: 100,754",,,,,,,,,,
+339,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positrons;
+Beam energy: 5 GeV;
+BRM: 375 amps",,,,,,,,,,
+340,DESY Chain,,New Run,162,1571936276,New Run,,,,
+"Events: 100,420",,,,,,,,,,
+341,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: positron;
+Beam energy: 5 GeV;
+BRM: 500 amps;
+Magnet Current: 187.28923 amps",,,,,,,,,,
+342,DESY Chain,,New Run,163,1571936885,New Run,,,,
+"Events:100,255
+We are getting close to the end of DWC 1 so do what you want with it.",,,,,,,,,,
+343,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: electrons;
+Beam energy: 1 GeV
+BRM: 100 amps;
+Magnet Current: -37.384605",,,,,,,,,,
+344,DESY Chain,,New Run,164,1571937854,New Run,,,,
+"Events: 100,821",,,,,,,,,,
+345,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: electrons;
+Beam energy: 1 GeV;
+BRM: 75 amps",,,,,,,,,,
+346,DESY Chain,,New Run,165,1571938197,New Run,,,,
+"Events: 100,000?",,,,,,,,,,
+347,DESY Chain,,Other,,,End of run,,,,
+"Beam type: electrons;
+Beam energy: 1 GeV;
+BRM: 50 amps",,,,,,,,,,
+348,DESY Chain,,New Run,166,1571938501,New Run,,,,
+Events: 100.000,,,,,,,,,,
+349,DESY Chain,,Other,,,End of run,,,,
+"Beam type: electrons;
+Beam energy: 1 GeV;
+BRM: 25 amps",,,,,,,,,,
+350,DESY Chain,,New Run,167,1571938794,New Run,,,,
+Events: 100.000,,,,,,,,,,
+351,DESY Chain,,Other,,,End of run,,,,
+"1 GeV electrons
+BRM: 0 Amps",,,,,,,,,,
+352,DESY Chain,,New Run,168,1571939126,New Run,,,,
+events: 100.000,,,,,,,,,,
+353,DESY Chain,,Other,,,End of run,,,,
+35 bars,,,,,,,,,,
+354,General,,Gas Conditions,,,T24,,,,
+Somebody named _ goofed up.,,,,,,,,,,
+355,DESY Chain,,Problem,,,Run did not start,,,,
+"Beam type: electrons;
+Beam energy: 3 GeV;
+BRM: 0 amps;
+Magnet Current: -112.35981 amps",,,,,,,,,,
+356,DESY Chain,,New Run,170,1571939524,New Run,,,,
+"Events: 101,111",,,,,,,,,,
+357,DESY Chain,,Other,,,End of Run,,,,
+"Beam type: electrons;
+Beam energy: 3 GeV;
+BRM: 75 amps",,,,,,,,,,
+358,DESY Chain,,New Run,171,1571939912,New Run,,,,
+"Events: 100,673
+Markus here, we are finally done! O-_-O",,,,,,,,,,
+359,DESY Chain,,Other,,,End of Run,,,,
+"These are the runs to be completed:
+
+3 GeV electrons for 125 and 200 amps;
+5 GeV electrons for 0,125, 250, 375, and 500 amps;",,,,,,,,,,
+360,DESY Chain,,Other,,,Missing Runs,,,,
+"On this shift: Ilja, Sophie, Sam, Charlie, Cecile, August, Lam, Derek and Janiek - 1cm SC",,,,,,,,,,
+361,General,,Other,,,New (night :) shift,,,,
+"3 GeV electron beam;
+BRM: 125 A",,,,,,,,,,
+362,DESY Chain,,New Run,172,1571950010,New run,,,,
+100765 events.,,,,,,,,,,
+363,DESY Chain,,Other,,,End of Run,,,,
+"3 GeV electron beam;
+BRM: 200 A",,,,,,,,,,
+364,DESY Chain,,New Run,174,1571950464,New Run,,,,
+100188 events.,,,,,,,,,,
+365,DESY Chain,,Other,,,End of Run,,,,
+"5 GeV electron;
+BRM: 0 A",,,,,,,,,,
+366,DESY Chain,,New Run,176,1571950975,New Run,,,,
+100256 events.,,,,,,,,,,
+367,DESY Chain,,Other,,,End of Run,,,,
+"5 GeV electron beam;
+BRM: 125 A",,,,,,,,,,
+368,DESY Chain,,New Run,177,1571951573,New Run,,,,
+100065 events.,,,,,,,,,,
+369,DESY Chain,,Other,,,End of Run,,,,
+"5 GeV electron beam;
+BRM: 250 A",,,,,,,,,,
+370,DESY Chain,,New Run,178,1571952203,New Run,,,,
+100298 events.,,,,,,,,,,
+371,DESY Chain,,Other,,,End of Run,,,,
+"5 GeV electron beam;
+BRM: 375 A.",,,,,,,,,,
+372,DESY Chain,,New Run,180,1571952846,New Run,,,,
+100268 events.,,,,,,,,,,
+373,DESY Chain,,Other,,,End of Run,,,,
+"5 GeV electron beam;
+500 A.",,,,,,,,,,
+374,DESY Chain,,New Run,181,1571953473,New Run,,,,
+"100245 events;
+
+Near the edge of the DWC1 detector.",,,,,,,,,,
+375,DESY Chain,,Other,,,End of Run,,,,
+"We decided to calibrate the thicker scintillator first - the 1cm SC is still in the beam, but it is near the saturation point for voltage. We are halving the voltage because the 2cm SC is twice as thick as the 1cm, so the saturation should be somewhat proportional. Check later log for final voltages",,,,,,,,,,
+376,DESY Chain,,Other,,,Decisions About Experiment Content - SC,,,,
+"DWC - 3.4 L/h
+MM - 4.1 L/h",,,,,,,,,,
+377,General,,Gas Conditions,,,Pressures 10/25,,,,
+"Positrons 5GeV, 0amps BRM
+
+SC at 1580V at the beginning of the run, to observe the same effects as yesterday",,,,,,,,,,
+378,DESY Chain,,New Run,182,1571991208,1cm SC Voltage adjustment for thicker SC,,,,
+"Selecting Magnet +5Gev
+SC - 1530V
+Mean Peak - 2153V (on QDC)
+
+Settings were not changed in TDAQ, so just be aware of that when looking at the data",,,,,,,,,,
+379,DESY Chain,,New Run,183,1571991659,1cm SC Voltage adjustment for thicker SC,,,,
+"Selecting Magnet +5GeV
+SC - 1480 V
+QDC Mean Charge - 1613 Volts",,,,,,,,,,
+380,DESY Chain,,New Run,184,1571992058,1cm SC Voltage adjustment for thicker SC,,,,
+"Selecting Magnet +5GeV
+SC - 1470 V
+QDC Mean Peak - 1677 V
+
+**TDAQ had to restart settings, name isn't 100% right
+*** 1480 == 1470",,,,,,,,,,
+381,DESY Chain,,New Run,185,1571992354,SC,,,,
+c,,,,,,,,,,
+382,DESY Chain,,New Run,186,1571993666,1cm SC Voltage adjustment for thicker SC,,,,
+"QDC :
+• ch 0: scint
+• ch 1: cal 1
+• ch 2: cal 2
+• ch 3: cal 3
+• ch 4: cal 4
+• ch 5: cal 0
+
+TDC :
+• ch 0: DWC0 L
+• ch 1: DWC0 R
+• ch 2: DWC0 U
+• ch 3: DWC0 D
+• ch 4: DWC1 L
+• ch 5: DWC1 R
+• ch 6: DWC1 U
+• ch 7: DWC1 D
+
+MMF8s:
+• MMFE8_02: MM 1 Left
+• MMFE8_03: MM 1 Right
+• MMFE8_05: MM 2 Top
+
+High Voltage : 
+HV1 (LBUS 0)
+• 0: DWC1 (previously MM1) 
+• 1: MM1 
+• 2: MM2 
+• 3: MM3 
+
+HV2 (LBUS 1)
+• 0: MM3 
+• 1: MM3
+• 2: DWC0
+
+HV3 (LBUS 0)
+• 0: Cal 0 
+• 1: Cal 1
+• 2: Cal 2
+• 3: Cal 3
+
+HV4 (LBUS 1)
+• 0: Cal 4
+• 1: Scint
+
+Analog Inputs (just for completeness):
+A1: Scint
+A2: L
+A3: R
+A4: U
+A5: D
+A6; Busy to area
+A7: Trigger out area
+A8: DWC1 L
+A9: DWC1 R
+A10: DWC1 U
+A11: DWC1 D
+
+B1: Cal 0
+B2: Cal 1
+B3: Cal 2
+B4: Cal 3
+B5: Cal 4
+
+##Config file notes
+1) For the size of the mimosa detectors the config file gives the pitch (distance between pixels) and number of
+pixels in the x and y directions
+2) For the MMFE8 and TDC trees, there is also an ""N""+""branch name"" named tree. This is because the MMFE8 and TDC
+can record multiple hits per event, so the N-branches give the number of hits per event in the corresponding branch",,,,,,,,,,
+383,General,,Other,,,What is everything plugged into?,,,,
+"We went into the beamline and attempted to add the 2cm thick scintillator. However, the space for the
+scintillator to be inserted is exactly 2cm, and the 2cm scintillator is wrapped in tape and stuff so it doesn't
+fit. :(
+
+Instead, we added .5 cm scintillator. 
+
+We also put some more tape on the calorimeters",,,,,,,,,,
+384,General,,Other,,,Experimental Updates,,,,
+,,,,,,,,,,
+385,DESY Chain,,Other,,,0.5 cm scintillator starting from here,,,,
+"Particles: e+
+Energy: 5 GeV
+
+PMT Voltage: -1580 V",,,,,,,,,,
+386,DESY Chain,,New Run,187,1572001725,Scint 0.5,,,,
+50000 events,,,,,,,,,,
+387,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 5 GeV
+
+PMT Voltage: -1630 V",,,,,,,,,,
+388,DESY Chain,,New Run,188,1572002093,Scint 0.5,,,,
+54000 events,,,,,,,,,,
+389,DESY Chain,,Run Details,,,End of run,,,,
+The peak is around QDC = 1700. Let's leave it like this to see the tail of the distribution,,,,,,,,,,
+390,DESY Chain,,Other,,,Staying at PMT -1630 V,,,,
+"Particles: e+
+Energy: 5 GeV
+BRM: 0 A",,,,,,,,,,
+391,DESY Chain,,New Run,189,1572002868,Alignment run,,,,
+102 kEvents,,,,,,,,,,
+392,DESY Chain,,Other,,,End of run,,,,
+"Particles: e+
+Energy: 5 GeV
+BRM: 375 A",,,,,,,,,,
+393,DESY Chain,,New Run,190,1572003556,Scint 0.5,,,,
+104 kEvents,,,,,,,,,,
+394,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 5 GeV
+BRM: 250 A",,,,,,,,,,
+395,DESY Chain,,New Run,191,1572004238,Scint 0.5,,,,
+98 kEvents,,,,,,,,,,
+396,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 3 GeV
+BRM: 125 A",,,,,,,,,,
+397,DESY Chain,,New Run,192,1572004934,Scint 0.5,,,,
+"Particles: e+
+Energy: 3 GeV
+BRM: 200 A",,,,,,,,,,
+398,DESY Chain,,New Run,193,1572005884,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+399,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 1 GeV
+BRM: 75 A",,,,,,,,,,
+400,DESY Chain,,New Run,194,1572006472,Scint 0.5,,,,
+128 kEvents,,,,,,,,,,
+401,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 1 GeV
+BRM: 50 A",,,,,,,,,,
+402,DESY Chain,,New Run,195,1572006850,Scint 0.5,,,,
+110 kEvents,,,,,,,,,,
+403,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 1 GeV
+BRM: 25 A",,,,,,,,,,
+404,DESY Chain,,New Run,196,1572007197,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+405,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 1 GeV
+BRM: 0 A",,,,,,,,,,
+406,DESY Chain,,New Run,197,1572007510,Scint 0.5,,,,
+101 kEvents,,,,,,,,,,
+407,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e+
+Energy: 3 GeV
+BRM: 0 A",,,,,,,,,,
+408,DESY Chain,,New Run,198,1572007834,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+409,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 5 GeV
+BRM: 0 A",,,,,,,,,,
+410,DESY Chain,,New Run,199,1572008331,Scint 0.5,,,,
+105 kEvents,,,,,,,,,,
+411,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 5 GeV
+BRM: 375 A",,,,,,,,,,
+412,DESY Chain,,New Run,200,1572008983,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+413,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 5 GeV
+BRM: 250 A",,,,,,,,,,
+414,DESY Chain,,New Run,201,1572009598,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+415,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 3 GeV
+BRM: 200 A (uncertain. Maybe 250? Check deflection!)",,,,,,,,,,
+416,DESY Chain,,New Run,203,1572010530,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+417,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 3 GeV
+BRM: 125 A",,,,,,,,,,
+418,DESY Chain,,New Run,204,1572010964,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+419,DESY Chain,,Run Details,,,End of run,,,,
+100 kEvents,,,,,,,,,,
+420,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 3 GeV
+BRM: 0 A",,,,,,,,,,
+421,DESY Chain,,New Run,205,1572011373,Scint 0.5,,,,
+200 kEvents,,,,,,,,,,
+422,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 1 GeV
+BRM: 0 A",,,,,,,,,,
+423,DESY Chain,,New Run,206,1572012186,Scint 0.5,,,,
+100 kEvents,,,,,,,,,,
+424,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 1 GeV
+BRM: 25 A",,,,,,,,,,
+425,DESY Chain,,New Run,207,1572012538,Scint 0.5,,,,
+115 kEvents,,,,,,,,,,
+426,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 1 GeV
+BRM: 50 A",,,,,,,,,,
+427,DESY Chain,,New Run,208,1572012923,Scint 0.5,,,,
+118k Events,,,,,,,,,,
+428,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 1 GeV
+BRM: 25 A",,,,,,,,,,
+429,DESY Chain,,New Run,209,1572013337,Scint 0.5,,,,
+150k Events,,,,,,,,,,
+430,DESY Chain,,Run Details,,,End of run,,,,
+"Particles: e-
+Energy: 6 GeV
+BRM: 0 A
+
+Alignment",,,,,,,,,,
+431,DESY Chain,,Calibration,210,1572013869,Scint 0.5,,,,
+"130,000 events.",,,,,,,,,,
+432,DESY Chain,,Run Details,,,End of run,,,,
+have a good night!,,,,,,,,,,
+465,General,,Other,,,End of a official night shift,,,,
+There was an undervoltage and it switched itself off. When we turned it on it sparked. Replaced it with a different one.,,,,,,,,,,
+468,General,,Problem,,,VME crate CORBO board replacement,,,,
+"MM: 4 liters/hour
+ DWC: 3.5 liters/hour",,,,,,,,,,
+470,General,,Gas Conditions,,,Gas readings after placement of micromega,,,,
+"Beam energy: 5 GeV
+ Positrons
+ Weren't getting triggers so we stopped the run (0 events)",,,,,,,,,,
+471,DESY Chain,,New Run,211,,Run to check if detectors are centered,,,,
+"In line with beam, rotated frame of DWC counterclockwise about 1 cm
+ In line with beam, moved to the left 1 cm",,,,,,,,,,
+472,General,,Other,,,Moved DWC and micromega 2,,,,
+"Rotated DWC 2 cm counterclockwise in line with beam
+ Moved micromega 2 2 cm to the left",,,,,,,,,,
+473,General,,Other,,,Moved DWC and micromega 2,,,,
+"Forgot to switch part of NIM crate on which is why the last run didn't have any triggers or events
+ Beam energy: 5 GeV
+ Positrons",,,,,,,,,,
+474,DESY Chain,,New Run,212,,Run to check if detectors are centered,,,,
+"Lots of noise in micromega 2
+ Still looking into beam alignment",,,,,,,,,,
+475,DESY Chain,,Run Details,,,End of run,,,,
+Moved micromega 2 4 cm to right,,,,,,,,,,
+476,General,,Other,,,Moved micromega 2,,,,
+Shifted micromega 2 1 cm left,,,,,,,,,,
+477,General,,Other,,,Moved micromega 2,,,,
+"Scintillator out of beam
+ 5 GeV
+ Positrons
+ No magnet",,,,,,,,,,
+478,DESY Chain,,New Run,216,1572083953,New alignment run,,,,
+"MMFE8 0
+ -Increased threshold on VMM 0 to 280
+ -Masked channel 63 of VMM 7",,,,,,,,,,
+479,DESY Chain,,Other,,,Change of configuration for subsequent runs,,,,
+199k events,,,,,,,,,,
+480,DESY Chain,,Run Details,216,1572083953,End of run,,,,
+"Beam energy: 5.0 GeV
+ Positrons
+ BRM: 500 amps",,,,,,,,,,
+481,DESY Chain,,New Run,217,1572085539,DESY Chain baseline run with BRM,,,,
+"No beam, we don't know why
+ Beam appeared again, sometimes at a lower rate, still not constant",,,,,,,,,,
+482,General,,Run Details,,,Baseline run with BRM,,,,
+100k events,,,,,,,,,,
+483,DESY Chain,,Run Details,,,End of run,,,,
+"MMFE8 1
+ -masked channel 40 of VMM 1",,,,,,,,,,
+484,DESY Chain,,Other,,,Change of configuaration for subsequent runs,,,,
+"Beam energy: 5 GeV
+ Positrons
+ BRM: 250 amps",,,,,,,,,,
+485,DESY Chain,,New Run,218,1572087074,Baseline run with BRM,,,,
+100k events,,,,,,,,,,
+486,DESY Chain,,Run Details,,,End of run,,,,
+"Beam energy: 3 GeV
+ Positrons
+ BRM: 300 amps",,,,,,,,,,
+487,DESY Chain,,New Run,220,1572087790,New alignment run,,,,
+117k events.,,,,,,,,,,
+488,DESY Chain,,Run Details,,,End of run,,,,
+"3 GeV
+ 150 A",,,,,,,,,,
+489,DESY Chain,,New Run,221,1572088297,Start of run,,,,
+,,,,,,,,,,
+490,DESY Chain,,Run Details,,,End of run,,,,
+"3 GeV
+ 0 A (BRM)",,,,,,,,,,
+491,DESY Chain,,New Run,228,1572089428,Start of run,,,,
+100k Events,,,,,,,,,,
+492,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 100 A (BRM)
+ 37.42 A (magnet)",,,,,,,,,,
+493,DESY Chain,,New Run,229,1572089902,Start of run,,,,
+"100k events
+ Data running off edge of DWC according to graph",,,,,,,,,,
+494,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 50 A (BRM)",,,,,,,,,,
+495,DESY Chain,,New Run,230,1572090334,Start of run,,,,
+100k events,,,,,,,,,,
+496,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 0 A (BRM)",,,,,,,,,,
+497,DESY Chain,,New Run,231,1572090729,Start of run,,,,
+100k events,,,,,,,,,,
+498,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ -187.297 A (magnet)
+ 500 A (BRM)
+ electrons",,,,,,,,,,
+499,DESY Chain,,New Run,234,1572091455,Start of run,,,,
+101k events,,,,,,,,,,
+500,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ 250 A (BRM)
+ electrons",,,,,,,,,,
+501,DESY Chain,,New Run,235,1572092221,Start of run,,,,
+100k events,,,,,,,,,,
+502,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ 0 A (BRM)
+ electrons",,,,,,,,,,
+503,DESY Chain,,New Run,236,1572092946,Start of run,,,,
+100k events,,,,,,,,,,
+504,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ -112.398 A (Magnet)
+ 300 A (BRM)
+ Electrons",,,,,,,,,,
+505,DESY Chain,,New Run,237,1572093775,Start of Run,,,,
+100k events,,,,,,,,,,
+506,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ 150 A
+ Electrons",,,,,,,,,,
+507,DESY Chain,,New Run,238,1572094221,Start of run,,,,
+130K events,,,,,,,,,,
+508,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ 0 A (BRM)
+ electrons",,,,,,,,,,
+509,DESY Chain,,New Run,239,1572094751,Start of run,,,,
+100k events,,,,,,,,,,
+510,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ -37.461 A (magnet)
+ 100 A (BRM)
+ electrons",,,,,,,,,,
+511,DESY Chain,,Run Details,240,1572095247,Start of Run,,,,
+100k events,,,,,,,,,,
+512,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ 50 A
+ electrons",,,,,,,,,,
+513,DESY Chain,,New Run,241,1572095620,Start of run,,,,
+100k events,,,,,,,,,,
+514,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ 0 A (BRM)
+ electrons",,,,,,,,,,
+515,DESY Chain,,New Run,242,1572095989,Start of run,,,,
+100k events,,,,,,,,,,
+516,DESY Chain,,Run Details,,,End of run,,,,
+,,,,,,,,,,
+517,DESY Chain,,Calibration,243,1572096305,Auto-trigger run,,,,
+200k events,,,,,,,,,,
+518,DESY Chain,,Calibration,,,End of auto-trigger run,,,,
+"Event count consistently goes up 1000 events, as expected of pre-defined 1 kHz rate. So, mimosa detectors are fine.",,,,,,,,,,
+519,General,,Calibration,,,Auto-trigger observation (no problems with mimosas),,,,
+1470 V,,,,,,,,,,
+520,General,,Other,,,Moved 2 cm scintillator into beam,,,,
+"5 GeV
+ 187.297 A (Magnet)
+ 0 A (BRM)
+ positrons",,,,,,,,,,
+521,DESY Chain,,New Run,245,1572097505,Start of run with 2 cm scintillator,,,,
+"Scintillator voltage too high
+ 34k events",,,,,,,,,,
+522,DESY Chain,,Run Details,,,End of run,,,,
+1450 V,,,,,,,,,,
+523,General,,Other,,,Changed 2 cm scintillator voltage,,,,
+"Scintillator voltage fixed to *1450 V*
+ 1 GeV
+ 0 A (BRM)
+ Positrons",,,,,,,,,,
+524,DESY Chain,,New Run,246,1572097787,Start of run,,,,
+100k events,,,,,,,,,,
+525,DESY Chain,,Run Details,,,End of run,,,,
+"5 GeV
+ 250 A (BRM)
+ positrons
+ 2 cm scintillator",,,,,,,,,,
+526,DESY Chain,,New Run,247,1572098569,Start of run,,,,
+100k events,,,,,,,,,,
+527,DESY Chain,,Run Details,,,End of run,,,,
+"5 GeV
+ 500 A (BRM)
+ positrons
+ 2 cm scintillator",,,,,,,,,,
+528,DESY Chain,,New Run,248,1572099283,Start of run,,,,
+104k events,,,,,,,,,,
+529,DESY Chain,,Run Details,,,End of run,,,,
+"3 GeV
+ 0 A (BRM)
+ positrons
+ 2 cm scintillator",,,,,,,,,,
+530,DESY Chain,,New Run,249,1572100097,Start of run,,,,
+100k events,,,,,,,,,,
+531,DESY Chain,,Run Details,,,End of run,,,,
+"Particle: positrons
+ Beam: 3GeV
+ BRM: 150 A",,,,,,,,,,
+532,DESY Chain,,New Run,250,1572100629,2 cm SC Start Run,,,,
+Events: 108023,,,,,,,,,,
+533,DESY Chain,,Run Details,250,,End Run,,,,
+"Particle: positrons
+ Beam: 3GeV
+ BRM: 300 A",,,,,,,,,,
+534,DESY Chain,,New Run,251,1572101077,2 cm SC Start Run,,,,
+Events: 106974,,,,,,,,,,
+535,DESY Chain,,Run Details,251,,End Run,,,,
+"Particle: positrons
+ Beam: 1GeV
+ BRM: 0 A",,,,,,,,,,
+536,DESY Chain,,New Run,254,1572101587,2 cm SC Start Run,,,,
+Entries: 103692,,,,,,,,,,
+537,DESY Chain,,Run Details,254,,End Run,,,,
+"Particle: positrons
+ Beam: 1GeV
+ BRM: 50 A",,,,,,,,,,
+538,DESY Chain,,New Run,255,1572102133,2 cm SC Start Run,,,,
+Entries:103426,,,,,,,,,,
+539,DESY Chain,,Run Details,255,,End Run,,,,
+"Particle: positrons
+ Beam: 1GeV
+ BRM: 100 A",,,,,,,,,,
+540,DESY Chain,,New Run,256,1572102470,2 cm SC Start Run,,,,
+Entries: 120942,,,,,,,,,,
+541,DESY Chain,,Run Details,265,,End Run,,,,
+"Particle: electrons
+ Beam: 1GeV
+ BRM: 0A",,,,,,,,,,
+542,DESY Chain,,New Run,257,1572102973,2 cm SC Start Run,,,,
+Entries: 114583,,,,,,,,,,
+543,DESY Chain,,Run Details,257,,End Run,,,,
+"Particle: electrons
+ Beam: 1 GeV
+ BRM: 50A",,,,,,,,,,
+544,DESY Chain,,New Run,258,1572103468,2 cm SC Start Run,,,,
+Entries: 107972,,,,,,,,,,
+545,DESY Chain,,Run Details,258,,End Run,,,,
+"DON'T USE THIS. THE SELECTOR MAGNET MAY NOT HAVE BEEN SET
+ 
+ Particle: electrons
+ > Beam: 1GeV
+ > BRM: 0A",,,,,,,,,,
+546,DESY Chain,,New Run,257,1572102973,2 cm SC Start Run,,,,
+"DON'T USE THIS. THE SELECTOR MAGNET MAY NOT HAVE BEEN SET
+ 
+ Particle: electrons
+ > Beam: 1 GeV
+ > BRM: 50A",,,,,,,,,,
+547,DESY Chain,,New Run,258,1572103468,2 cm SC Start Run,,,,
+"Particle: electrons
+ Beam: 1 GeV
+ BRM: 0A",,,,,,,,,,
+548,DESY Chain,,New Run,259,1572104299,2 cm SC Start Run,,,,
+Entries: 100136,,,,,,,,,,
+549,DESY Chain,,Run Details,259,,End Run,,,,
+"Particle: electrons
+ Beams: 1 GeV
+ BRM: 50A",,,,,,,,,,
+550,DESY Chain,,New Run,260,1572104678,2 cm SC Start Run,,,,
+Entries: 108851,,,,,,,,,,
+551,DESY Chain,,Run Details,260,,End Run,,,,
+"Particle: electrons
+ Beam: 1 GeV
+ BRM: 100A",,,,,,,,,,
+552,DESY Chain,,New Run,261,1572105037,2 cm SC Start Run,,,,
+Entries: 101564,,,,,,,,,,
+553,DESY Chain,,Run Details,261,,End Run,,,,
+"Particles: electrons
+ Beam: 3GeV
+ BRM: 100A",,,,,,,,,,
+554,DESY Chain,,New Run,262,1572105397,2 cm SC Start Run,,,,
+Entries: 100430,,,,,,,,,,
+555,DESY Chain,,Run Details,262,,End Run,,,,
+"Particle: electrons
+ Beam: 3GeV
+ BRM: 150A",,,,,,,,,,
+556,DESY Chain,,New Run,263,1572105827,2 cm SC Start Run,,,,
+Entries: 100486,,,,,,,,,,
+557,DESY Chain,,Run Details,263,,End Run,,,,
+"Particle: electrons
+ Beam: 3GeV
+ BRM: 300A",,,,,,,,,,
+558,DESY Chain,,New Run,264,1572106243,2 cm SC Start Run,,,,
+Entries: 108940,,,,,,,,,,
+559,DESY Chain,,Run Details,264,,End Run,,,,
+"Particles: electrons
+ Beam: 3GeV
+ BRM: 0A",,,,,,,,,,
+560,DESY Chain,,New Run,265,1572106685,2 cm SC Start Run,,,,
+Entries: 101449,,,,,,,,,,
+561,DESY Chain,,Run Details,265,,End Run,,,,
+"Particle: electrons
+ Beam: 5GeV
+ BRM: 0A",,,,,,,,,,
+562,DESY Chain,,New Run,266,1572107138,2 cm SC Start Run,,,,
+Entries: 100271,,,,,,,,,,
+563,DESY Chain,,Run Details,266,,End Run,,,,
+"Particles: electrons
+ Beam: 5GeV
+ BRM: 250A",,,,,,,,,,
+564,DESY Chain,,New Run,267,1572107806,2 cm SC Start Run,,,,
+Entries: 108931,,,,,,,,,,
+565,DESY Chain,,Run Details,267,,End Run,,,,
+"Particles: electrons
+ Beam: 5GeV
+ BRM: 500A",,,,,,,,,,
+566,DESY Chain,,New Run,268,1572108522,2 cm SC Start Run,,,,
+Entries: 100188,,,,,,,,,,
+567,DESY Chain,,Run Details,268,,End Run 2 cm SC,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+"5 GeV
+ positrons
+ 1 cm Scintillator - 1450 Volts",,,,,,,,,,
+608,DESY Chain,,New Run,269,1572128197,Test scintillator run,,,,
+End of scintillator test run,,,,,,,,,,
+609,DESY Chain,,Run Details,,,End of run,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+"Checking voltage on scintillator
+ 1680 V.
+ 5 GeV positrons",,,,,,,,,,
+640,DESY Chain,,New Run,271,1572167203,Alignment run,,,,
+17k events,,,,,,,,,,
+641,DESY Chain,,Run Details,,,End of alignment run,,,,
+"Checking scintillator voltage - 1630 V
+ 5 GeV electrons",,,,,,,,,,
+642,DESY Chain,,New Run,272,1572167586,Start of Alignment Run,,,,
+,,,,,,,,,,
+643,DESY Chain,,Run Details,,,End of run,,,,
+"Scintillator at 1580 V
+ 5 GeV positrons",,,,,,,,,,
+644,DESY Chain,,New Run,273,1572167644,Start of Alignment Run,,,,
+250k events.,,,,,,,,,,
+645,DESY Chain,,Run Details,,,End of run,,,,
+"Scintillator at 1530 V
+ 5 GeV positrons",,,,,,,,,,
+646,DESY Chain,,New Run,274,1572169200,Start of Alignment Run,,,,
+50k events,,,,,,,,,,
+647,DESY Chain,,Run Details,,,End of run,,,,
+"Scintillator at 1580 V
+ 250 A (BRM)
+ 5 GeV positrons",,,,,,,,,,
+648,DESY Chain,,New Run,275,1572169691,Start of run,,,,
+100k events,,,,,,,,,,
+649,DESY Chain,,Run Details,,,End of run,,,,
+"5 GeV
+ 500 A (BRM)
+ positrons",,,,,,,,,,
+650,DESY Chain,,New Run,276,1572170351,Start of run,,,,
+"3 GeV
+ 150 A
+ positrons",,,,,,,,,,
+651,DESY Chain,,New Run,277,1572171025,Start of run,,,,
+100k events,,,,,,,,,,
+652,DESY Chain,,Run Details,,,End of run,,,,
+"3 GeV
+ 300 A (BRM)
+ positrons",,,,,,,,,,
+653,DESY Chain,,New Run,278,1572171442,Start of run,,,,
+100k events,,,,,,,,,,
+654,DESY Chain,,New Run,,,End of run,,,,
+"3 GeV
+ 0 A (BRM)",,,,,,,,,,
+655,DESY Chain,,New Run,279,1572171865,Start of run,,,,
+100k events,,,,,,,,,,
+656,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 0 A (BRM)",,,,,,,,,,
+657,DESY Chain,,New Run,280,1572172309,Start of run,,,,
+100k events,,,,,,,,,,
+658,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 50 A (BRM)
+ positrons",,,,,,,,,,
+659,DESY Chain,,New Run,281,1572172623,Start of run,,,,
+100k events,,,,,,,,,,
+660,DESY Chain,,Run Details,,,End of run,,,,
+"1 GeV
+ 100 A (BRM)
+ positrons",,,,,,,,,,
+661,DESY Chain,,New Run,282,1572172945,Start of run,,,,
+110k events,,,,,,,,,,
+662,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ 100 A (BRM)
+ Electrons",,,,,,,,,,
+663,DESY Chain,,New Run,283,1572173331,Start of run,,,,
+100k events,,,,,,,,,,
+664,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ 50 A (BRM)
+ electrons",,,,,,,,,,
+665,DESY Chain,,New Run,284,1572173645,Start of run,,,,
+111k events,,,,,,,,,,
+666,DESY Chain,,Run Details,,,End of run,,,,
+"-1 GeV
+ 0 A (BRM)
+ electrons",,,,,,,,,,
+667,DESY Chain,,New Run,285,1572173990,Start of run,,,,
+100k events,,,,,,,,,,
+668,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ 0 A (BRM)
+ Electrons",,,,,,,,,,
+669,DESY Chain,,New Run,286,1572174366,Start of run,,,,
+100k events,,,,,,,,,,
+670,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ 150 A (BRM)
+ electrons",,,,,,,,,,
+671,DESY Chain,,New Run,287,1572174791,Start of run,,,,
+100k events,,,,,,,,,,
+672,DESY Chain,,Run Details,,,End of run,,,,
+"-3 GeV
+ 300 A (BRM)
+ Electrons.",,,,,,,,,,
+673,DESY Chain,,New Run,288,1572175181,Start of run,,,,
+100k events,,,,,,,,,,
+674,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ 500 A (BRM)
+ electrons",,,,,,,,,,
+675,DESY Chain,,New Run,289,1572175587,Start of run,,,,
+100k events.,,,,,,,,,,
+676,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ 250 A (BRM)
+ electrons",,,,,,,,,,
+677,DESY Chain,,New Run,290,1572176260,Start of run,,,,
+100k events,,,,,,,,,,
+678,DESY Chain,,Run Details,,,End of run,,,,
+"-5 GeV
+ 0 A (BRM)
+ electrons",,,,,,,,,,
+679,DESY Chain,,New Run,291,1572176931,Start of run,,,,
+100k events.,,,,,,,,,,
+680,DESY Chain,,Run Details,,,End of run,,,,
+Currently at 1700 V,,,,,,,,,,
+681,General,,Calibration,,,Tuning scintillator voltage,,,,
+1750 V,,,,,,,,,,
+682,General,,Calibration,,,Tuning scintillator voltage,,,,
+"Scintillator (crystal) is at 1800 V
+ Particles: 5 GeV electrons
+ BRM: 0 A
+ (mostly for alignment)",,,,,,,,,,
+683,DESY Chain,,New Run,295,1572179299,Crystal scintillator run,,,,
+End of alignment run (crystal scintillator) w/ 200K events,,,,,,,,,,
+684,DESY Chain,,Run Details,295,1572179299,End of run,,,,
+"Particle: 5 GeV electrons
+ BRM: 250 A",,,,,,,,,,
+685,DESY Chain,,New Run,296,1572180849,Start of run,,,,
+"At 250 A, the BRM caused the particles to bend outside the MM, etc. so reducing current",,,,,,,,,,
+686,DESY Chain,,Run Details,296,1572180849,End of run,,,,
+"Particles: 5GeV electrons
+ BRM has been reduced to 150 A",,,,,,,,,,
+687,DESY Chain,,New Run,297,1572181315,Start of run,,,,
+Still a little too high. Reducing BRM amperage,,,,,,,,,,
+688,DESY Chain,,Run Details,297,1572181315,End of run,,,,
+"5GeV electrons
+ BRM 100 A",,,,,,,,,,
+689,DESY Chain,,New Run,298,1572181745,Start of run,,,,
+End of run with about 100K events,,,,,,,,,,
+690,DESY Chain,,Run Details,298,1572181745,End of run,,,,
+"3 GeV electrons
+ 0 A BRM",,,,,,,,,,
+691,DESY Chain,,New Run,299,1572182574,New run,,,,
+Run ended with about 100K events,,,,,,,,,,
+692,DESY Chain,,Run Details,299,1572182574,End of run,,,,
+"3 GeV electrons
+ 60 A BRM",,,,,,,,,,
+693,DESY Chain,,New Run,300,1572183037,New run,,,,
+End of run with about 100 K events. Our thought is that the inorganic scintillator is a little solid to be in from in general (e.g. beam showers are random),,,,,,,,,,
+694,DESY Chain,,Run Details,300,1572183037,End of run,,,,
+1 GeV electrons and 20A BRM,,,,,,,,,,
+695,DESY Chain,,New Run,301,1572183476,Start of run,,,,
+,,,,,,,,,,
+696,DESY Chain,,Run Details,301,1572183476,End of Run,,,,
+1 GeV electrons and 0 A BRM,,,,,,,,,,
+697,DESY Chain,,New Run,302,1572183834,Start of run,,,,
+About 128K events,,,,,,,,,,
+698,DESY Chain,,Run Details,302,1572183834,End of run,,,,
+1 GeV positrons and 0 A BRM,,,,,,,,,,
+699,DESY Chain,,New Run,303,1572184203,New run,,,,
+Run ended at 105 K events.,,,,,,,,,,
+700,DESY Chain,,Run Details,303,1572184203,End of run,,,,
+"1 GeV electrons
+ 20 A BRM",,,,,,,,,,
+701,DESY Chain,,New Run,304,1572184622,New run,,,,
+Run ended at 104K events,,,,,,,,,,
+702,DESY Chain,,Run Details,304,1572184622,End of run,,,,
+3 GeV positrons and 60A BRM,,,,,,,,,,
+703,DESY Chain,,New Run,305,1572184952,Start of run,,,,
+Run ended with about 103K events,,,,,,,,,,
+704,DESY Chain,,Run Details,305,1572184952,End of run,,,,
+3 GeV positrons and 0 A BRM,,,,,,,,,,
+705,DESY Chain,,New Run,306,1572185366,Start of run,,,,
+Run ended with 102K events,,,,,,,,,,
+706,DESY Chain,,Run Details,306,1572185366,End of run,,,,
+5 GeV positrons with BRM at 0A,,,,,,,,,,
+707,DESY Chain,,New Run,307,1572185799,start of run,,,,
+102K events,,,,,,,,,,
+708,DESY Chain,,Run Details,307,1572185799,End of run,,,,
+5 GeV positrons with BRM set to 100A,,,,,,,,,,
+709,DESY Chain,,New Run,308,1572186485,Start of run,,,,
+Ended with about 101K events,,,,,,,,,,
+710,DESY Chain,,Run Details,308,1572186485,End of run,,,,
+"Put the 0.2 cm scintillator in, so we can check voltages with it.",,,,,,,,,,
+711,DESY Chain,,Other,,,Change scintillator,,,,
+1580V for scintillator,,,,,,,,,,
+712,DESY Chain,,Calibration,309,1572187615,0.2cm,,,,
+Run ended with 51K events,,,,,,,,,,
+713,DESY Chain,,Run Details,309,1572187615,End of run,,,,
+1650 V now for scintillator (0.2 cm),,,,,,,,,,
+714,DESY Chain,,New Run,310,1572187970,Start of run,,,,
+End of run with 52K events,,,,,,,,,,
+715,DESY Chain,,Run Details,310,1572187970,Run ended,,,,
+1700V,,,,,,,,,,
+716,DESY Chain,,New Run,311,1572188327,Another 0.2cm scintillator voltage,,,,
+"38 bar for MMs
+ 20 bar for DWCs",,,,,,,,,,
+717,General,,Gas Conditions,,,Gas conditions,,,,
+About 55K events,,,,,,,,,,
+718,DESY Chain,,Run Details,311,1572188327,End of run,,,,
+"1800V for the 0.2cm scintillator
+ 
+ (and all of these 0.2cm voltage checks have been 5 GeV positrons and 0A)",,,,,,,,,,
+719,DESY Chain,,New Run,312,1572188706,Start of run,,,,
+108K events,,,,,,,,,,
+720,DESY Chain,,Run Details,312,1572188706,End of run,,,,
+5 GeV electrons and 250A BRM,,,,,,,,,,
+721,DESY Chain,,New Run,313,1572189388,Start of run,,,,
+Run ended with 108K events,,,,,,,,,,
+722,DESY Chain,,Run Details,313,1572189388,End of run,,,,
+5 GeV positrons and 500A (BRM),,,,,,,,,,
+723,DESY Chain,,New Run,314,1572190135,Start of run,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+100k events,,,,,,,,,,
+725,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Positrons
+ BRM: 300 amps",,,,,,,,,,
+726,DESY Chain,,New Run,315,1572190918,Start of run,,,,
+100k events,,,,,,,,,,
+727,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Positrons
+ BRM: 150 amps",,,,,,,,,,
+728,DESY Chain,,New Run,316,1572191362,Start of run,,,,
+100k events,,,,,,,,,,
+729,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Positrons
+ BRM: 0 amps",,,,,,,,,,
+730,DESY Chain,,New Run,317,1572191829,Start of run,,,,
+100k events,,,,,,,,,,
+731,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 0 amps",,,,,,,,,,
+732,DESY Chain,,New Run,318,1572192245,Start of run,,,,
+100k events,,,,,,,,,,
+733,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 50 amps",,,,,,,,,,
+734,DESY Chain,,New Run,319,1572192584,Start of run,,,,
+100k events,,,,,,,,,,
+735,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 100 amps",,,,,,,,,,
+736,DESY Chain,,New Run,320,1572192942,Start of run,,,,
+100k events,,,,,,,,,,
+737,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 100 amps",,,,,,,,,,
+738,DESY Chain,,New Run,321,1572193352,Start of run,,,,
+100k events,,,,,,,,,,
+739,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 50 amps",,,,,,,,,,
+740,DESY Chain,,New Run,322,1572193711,Start of run,,,,
+100k events,,,,,,,,,,
+741,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+742,DESY Chain,,New Run,323,1572194050,Start of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+743,DESY Chain,,New Run,323,1572194050,Start of run,,,,
+100k events,,,,,,,,,,
+744,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 150 amps",,,,,,,,,,
+745,DESY Chain,,New Run,325,1572194833,Start of run,,,,
+100k events,,,,,,,,,,
+746,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 300 amps",,,,,,,,,,
+747,DESY Chain,,New Run,326,1572195254,Start of run,,,,
+100k events,,,,,,,,,,
+748,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+749,DESY Chain,,New Run,327,1572195758,Start of Run,,,,
+"Out of sync, had to redo",,,,,,,,,,
+750,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+751,DESY Chain,,New Run,328,1572196002,Restarted last run,,,,
+100k events,,,,,,,,,,
+752,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 250 amps",,,,,,,,,,
+753,DESY Chain,,New Run,329,1572196640,Start of run,,,,
+100k events,,,,,,,,,,
+754,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+755,DESY Chain,,New Run,330,1572197296,Start of run,,,,
+100k events,,,,,,,,,,
+756,DESY Chain,,Run Details,,,End of run,,,,
+Set scintillator to 1680 volts,,,,,,,,,,
+757,DESY Chain,,Other,,,Placed 1 cm scintillator in beam,,,,
+"First run with 1 cm scintillator in this data set
+ Beam Energy: 3 GeV
+ Electrons
+ BRM: 300 amps",,,,,,,,,,
+758,DESY Chain,,New Run,331,1572199006,Start of run,,,,
+"Voltage was too high, had to stop the run",,,,,,,,,,
+759,DESY Chain,,Run Details,,,End of run,,,,
+"Scintillator voltage was changed to 1580
+ Beam Energy: 3 GeV
+ Electrons
+ BRM: 300 amps",,,,,,,,,,
+760,DESY Chain,,New Run,332,1572199259,Redo of last run with different voltage,,,,
+"Voltage was too high again, had to stop the run",,,,,,,,,,
+761,DESY Chain,,Run Details,,,End of run,,,,
+Scintillator voltage was set to 1530,,,,,,,,,,
+762,DESY Chain,,New Run,333,1572199396,Redo of last run with different voltage,,,,
+100k events,,,,,,,,,,
+763,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 150 amps",,,,,,,,,,
+764,DESY Chain,,New Run,334,1572200064,Start of run,,,,
+100k events,,,,,,,,,,
+765,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+766,DESY Chain,,New Run,335,1572200730,Start of run,,,,
+100k events,,,,,,,,,,
+767,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+768,DESY Chain,,New Run,336,1572201397,Start of run,,,,
+100k events,,,,,,,,,,
+769,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 50 amps",,,,,,,,,,
+770,DESY Chain,,New Run,337,1572201758,Start of run,,,,
+100k events,,,,,,,,,,
+771,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 100 amps",,,,,,,,,,
+772,DESY Chain,,New Run,338,1572202090,Start of run,,,,
+100k events,,,,,,,,,,
+773,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV 
+ Positrons
+ BRM: 0 amps",,,,,,,,,,
+774,DESY Chain,,New Run,339,1572202506,Start of run,,,,
+100k events,,,,,,,,,,
+775,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 50 amps",,,,,,,,,,
+776,DESY Chain,,New Run,340,1572202839,Start of run,,,,
+100k events,,,,,,,,,,
+777,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 0 amps",,,,,,,,,,
+778,DESY Chain,,New Run,341,1572203198,Start of run,,,,
+100k events,,,,,,,,,,
+779,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Positrons
+ BRM: 150 amps",,,,,,,,,,
+780,DESY Chain,,New Run,343,1572203962,Start of run,,,,
+100k events,,,,,,,,,,
+781,DESY Chain,,Run Details,,,End of run,,,,
+"1cm Sc, 300A, 3GeV, positrons",,,,,,,,,,
+782,DESY Chain,,New Run,344,1572204380,1cm SC retest,,,,
+100k events,,,,,,,,,,
+783,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Positrons
+ BRM: 0",,,,,,,,,,
+784,DESY Chain,,New Run,345,1572204862,Start of run,,,,
+110k events,,,,,,,,,,
+785,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Positrons
+ BRM: 375 amps",,,,,,,,,,
+786,DESY Chain,,New Run,346,1572205682,Start of run,,,,
+77k events,,,,,,,,,,
+787,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 375 amps",,,,,,,,,,
+788,DESY Chain,,New Run,347,1572206303,Start of run,,,,
+75k events,,,,,,,,,,
+789,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 0 amps",,,,,,,,,,
+790,DESY Chain,,New Run,348,1572206843,Start of run,,,,
+75k events,,,,,,,,,,
+791,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 5 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+792,DESY Chain,,New Run,349,1572207775,Magnetic field characterisation run,,,,
+20k events,,,,,,,,,,
+793,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 4 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+794,DESY Chain,,New Run,350,1572207988,Magnet run,,,,
+30k events,,,,,,,,,,
+795,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 3 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+796,DESY Chain,,New Run,351,1572208189,Magnet run,,,,
+31k events,,,,,,,,,,
+797,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 2 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+798,DESY Chain,,New Run,352,1572208366,Magnet run,,,,
+31k events,,,,,,,,,,
+799,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Electrons
+ BRM: 500 amps",,,,,,,,,,
+800,DESY Chain,,New Run,353,1572208515,Magnet run,,,,
+31k events,,,,,,,,,,
+801,DESY Chain,,Run Details,,,End of run,,,,
+"Beam Energy: 1 GeV
+ Positrons
+ BRM: 500 amps",,,,,,,,,,
+802,DESY Chain,,New Run,354,1572208677,Magnet run,,,,
+30k events,,,,,,,,,,
+803,DESY Chain,,Run Details,,,End of run,,,,
+"2 GeV, 500 amps (no scintillator)",,,,,,,,,,
+804,DESY Chain,,New Run,355,1572208805,Characterizing magnetic field,,,,
+3 GeV,,,,,,,,,,
+805,DESY Chain,,New Run,356,1572208951,Magnetic field characterisation run,,,,
+,,,,,,,,,,
+806,DESY Chain,,Run Details,,,End of Run,,,,
+4 GeV,,,,,,,,,,
+807,DESY Chain,,New Run,357,1572209097,Magnetic field characterisation run,,,,
+,,,,,,,,,,
+808,DESY Chain,,Run Details,357,,End of run,,,,
+"Positrons, 5 GeV",,,,,,,,,,
+809,DESY Chain,,New Run,358,1572209281,New magnet characterization run,,,,
+,,,,,,,,,,
+810,DESY Chain,,Run Details,,,End of run,,,,
